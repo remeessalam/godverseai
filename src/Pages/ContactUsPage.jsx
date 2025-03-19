@@ -5,7 +5,6 @@ const ContactUsPage = () => {
     <div className="min-h-screen bg-[#0a0e1a] text-white flex flex-col items-center justify-center py-10 px-4">
       <div className="w-full max-w-6xl">
         <div className="flex flex-col md:flex-row gap-8 mb-16">
-          {/* Get in Touch Section */}
           <div className="w-full md:w-1/2">
             <h1 className="text-4xl md:text-5xl font-bold mb-8">
               Get in Touch

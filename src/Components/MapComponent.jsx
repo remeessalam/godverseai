@@ -2,7 +2,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-// Fix for default marker icon in react-leaflet
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl:
@@ -13,7 +12,7 @@ L.Icon.Default.mergeOptions({
     "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
 });
 const MapComponent = () => {
-  const position = [49.8561, 2.376]; // 49°51'22.0"N 2°22'33.5"E
+  const position = [49.8561, 2.376];
 
   return (
     <div className="w-full md:w-1/2 h-72 md:h-80 relative rounded-lg overflow-hidden">
