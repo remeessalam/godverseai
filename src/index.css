@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  .paddingtop {
+    @apply pt-[4rem];
+  }
+  .paddingbottom {
+    @apply pb-[4rem];
+  }
+  .main-title {
+    @apply text-[30px] sm:text-[40px]  font-bold dark:text-white text-darkbackground;
+  }
+  .desc {
+    @apply text-base font-normal dark:text-white text-darkbackground;
+  }
+  .hero-heading {
+    @apply font-bold text-2xl text-white;
+  }
+  .primary-btn {
+    @apply bg-primary text-white px-6 py-2 rounded-md hover:bg-primary/70 transition-colors;
+  }
+  .secondary-btn-white {
+    @apply bg-white text-black px-6 py-2 rounded-md hover:bg-white/70 transition-colors;
+  }
+}

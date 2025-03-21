@@ -38,10 +38,7 @@ const Header = () => {
             <Link to="#" className="text-white hover:text-blue-500">
               Blog
             </Link>
-            <button
-              onClick={navigateTo}
-              className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
-            >
+            <button onClick={navigateTo} className="primary-btn">
               Contact Us
             </button>
             <button
