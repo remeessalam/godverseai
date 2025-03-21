@@ -21,6 +21,12 @@
   .hero-heading {
     @apply font-bold text-2xl text-white;
   }
+  .small-heading {
+    @apply text-xl  font-semibold;
+  }
+  .small-desc {
+    @apply text-[17px]  font-normal;
+  }
   .primary-btn {
     @apply bg-primary text-white px-6 py-2 rounded-md hover:bg-primary/70 transition-colors;
   }
@@ -30,4 +36,13 @@
   .darkandlightcardhovertext {
     @apply dark:group-hover:text-white group-hover:text-white;
   }
+}
+
+.hovershadow:hover {
+  -webkit-box-shadow: 9px 9px 8px -3px rgba(1, 111, 200, 0.65);
+  -moz-box-shadow: 9px 9px 8px -3px rgba(1, 111, 200, 0.65);
+  box-shadow: 9px 9px 8px -3px rgba(1, 111, 200, 0.65);
+}
+.hovershadow {
+  transition: box-shadow 0.3s ease-in-out;
 }
