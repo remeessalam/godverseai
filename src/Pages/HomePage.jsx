@@ -44,10 +44,7 @@ const HomePage = () => {
       </section>
       <ServicesGrid />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
-        {/* Make the background div larger and ensure it has the correct class */}
         <div className="absolute -bottom-[50rem] -left-[50rem] w-full h-full bg-background blur-3xl opacity-70 z-0" />
-
-        {/* Content container with relative positioning to appear above the background */}
         <div className="relative z-10 w-full h-full">
           <Testimonials />
           <Highlights />
