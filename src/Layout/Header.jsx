@@ -46,26 +46,17 @@ const Header = () => {
             </button>
             <button
               onClick={toggleTheme}
-              className={`p-2 rounded-full ${
-                isDarkMode
-                  ? "bg-gray-800 text-yellow-300"
-                  : "bg-gray-100 text-gray-600"
-              }`}
+              className={`p-2 rounded-full bg-gray-100 dark:bg-gray-800 dark:text-yellow-300 text-gray-600  `}
               aria-label="Toggle dark mode"
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-4">
             <button
               onClick={toggleTheme}
-              className={`p-2 rounded-full ${
-                isDarkMode
-                  ? "bg-gray-800 text-yellow-300"
-                  : "bg-gray-100 text-gray-600"
-              }`}
+              className={`p-2 rounded-full bg-gray-100 dark:bg-gray-800 dark:text-yellow-300 text-gray-600`}
               aria-label="Toggle dark mode"
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -81,7 +72,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">

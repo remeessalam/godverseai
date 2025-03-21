@@ -3,7 +3,6 @@ import React, { createContext, useState, useContext, useEffect } from "react";
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  // Check for user preference in localStorage, fallback to system preference
   const [theme, setTheme] = useState(() => {
     const savedTheme = localStorage.getItem("theme");
 
@@ -11,7 +10,6 @@ export const ThemeProvider = ({ children }) => {
       return savedTheme;
     }
 
-    // Check for system preference as default
     if (
       window.matchMedia &&
       window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -23,10 +21,8 @@ export const ThemeProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    // Save theme to localStorage
     localStorage.setItem("theme", theme);
 
-    // Apply or remove dark class based on theme state
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -45,4 +41,5 @@ export const ThemeProvider = ({ children }) => {
   );
 };
 
+//eslint-disable-next-line
 export const useTheme = () => useContext(ThemeContext);

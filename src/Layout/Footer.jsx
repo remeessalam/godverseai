@@ -7,9 +7,6 @@ const Footer = () => {
 
   return (
     <div className="relative bg-primary dark:bg-darkblack -z-20 overflow-hidden">
-      {/* Main content would go here */}
-
-      {/* Footer Section */}
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
@@ -18,7 +15,6 @@ const Footer = () => {
       <footer className="w-full  px-4 py-16 md:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">
-            {/* Logo and Description */}
             <div className="col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <img src={logo} alt="logo" className="w-[7rem] h-[2.8rem]" />
@@ -28,7 +24,6 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Quick Links */}
             <div className="col-span-1">
               <h3 className="text-white font-medium mb-4">Quick Links</h3>
               <ul className="space-y-2">
@@ -51,7 +46,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Information */}
             <div className="col-span-1">
               <h3 className="text-white font-medium mb-4">Information</h3>
               <ul className="space-y-2">
@@ -74,7 +68,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Newsletter */}
             <div className="col-span-1">
               <div className="flex gap-2">
                 <input
@@ -89,7 +82,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Copyright */}
           <div className="mt-12 text-center">
             <p className="text-white text-sm">
               ©2025 GodverseAI. All rights reserved.
