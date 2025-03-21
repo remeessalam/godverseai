@@ -29,7 +29,7 @@ const Header = () => {
             <Link to="/" className="text-white hover:text-blue-500">
               Home
             </Link>
-            <Link to="#" className="text-white hover:text-blue-500">
+            <Link to="/about-us" className="text-white hover:text-blue-500">
               About Us
             </Link>
             <Link to="#" className="text-white hover:text-blue-500">
@@ -73,13 +73,13 @@ const Header = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">
             <Link
-              to="#"
+              to="/"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Home
             </Link>
             <Link
-              to="#"
+              to="/about-us"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               About Us
@@ -96,7 +96,10 @@ const Header = () => {
             >
               Blog
             </Link>
-            <button className="w-full text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors">
+            <button
+              onClick={navigateTo}
+              className="w-full text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
+            >
               Contact Us
             </button>
           </div>
