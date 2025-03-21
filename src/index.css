@@ -27,4 +27,7 @@
   .secondary-btn-white {
     @apply bg-white text-black px-6 py-2 rounded-md hover:bg-white/70 transition-colors;
   }
+  .darkandlightcardhovertext {
+    @apply dark:group-hover:text-white group-hover:text-white;
+  }
 }

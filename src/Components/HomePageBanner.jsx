@@ -3,7 +3,7 @@ import bannervideo from "../assets/video/bannervideo.mp4";
 import ReactPlayer from "react-player";
 const HomePageBanner = () => {
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <ReactPlayer
         url={bannervideo}
         loop={true}
@@ -25,7 +25,7 @@ const HomePageBanner = () => {
           },
         }}
       />
-      <div className="absolute wrapper flex flex-col items-center justify-between top-0 w-full h-full pt-[7rem]">
+      <div className="absolute flex flex-col items-center justify-between    left-0 top-0 w-full h-full pt-[7rem]">
         <h1 className="hero-heading">Vision Beyond Reality</h1>
         <div className="flex flex-col gap-8 pb-5">
           <p className="font-bold text-base text-white sm:text-start text-center">

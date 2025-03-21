@@ -7,7 +7,9 @@ const AppLayout = () => {
   return (
     <div>
       <Header />
-      <Outlet />
+      <div className="bg-white dark:bg-darkbackground">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
