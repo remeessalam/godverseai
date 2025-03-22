@@ -15,7 +15,7 @@ const MapComponent = () => {
   const position = [49.8561, 2.376];
 
   return (
-    <div className="w-full md:w-1/2 h-72 md:h-80 relative rounded-lg overflow-hidden z-30">
+    <div className="w-full md:w-1/2 h-72 md:h-[30rem] relative rounded-lg overflow-hidden z-30">
       <MapContainer
         center={position}
         zoom={14}

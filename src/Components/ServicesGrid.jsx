@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import { services } from "../util/constant";
 import { Users } from "lucide-react";
 import { useTheme } from "../Context/ThemeContext";
+import { useNavigate } from "react-router-dom";
 
 const ServicesGrid = () => {
   const [hover, setHover] = useState("");
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
-
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(`/services/${link}`);
+  };
   return (
     <section>
       <div className=" wrapper paddingtop paddingbottom">
@@ -19,6 +23,7 @@ const ServicesGrid = () => {
                 className="relative aspect-square h-full dark:hover:bg-primary hover:bg-primary group dark:bg-darkblack overflow-hidden rounded-xl border border-slate-700"
                 onMouseEnter={() => setHover(index)}
                 onMouseLeave={() => setHover("")}
+                onClick={() => navigateTo(service.link)}
               >
                 <div
                   className={`absolute ${

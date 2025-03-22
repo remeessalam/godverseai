@@ -15,75 +15,92 @@ import file from "../assets/images/png/file.png";
 import graph from "../assets/images/png/graph.png";
 import rocket from "../assets/images/png/rocket.png";
 import start from "../assets/images/png/start.png";
+import integrity from "../assets/images/png/integrity.png";
+import quality from "../assets/images/png/quality.png";
+import success from "../assets/images/png/success.png";
+import Infinite from "../assets/images/png/Infinite.png";
+
 export const services = [
   {
     title: "Mobile App Development",
+    link: "mobile-app-development",
     description: "Crafting User-Centric Solutions",
     icon: Smartphone,
     bgColor: "bg-blue-500",
   },
   {
     title: "UX/UI Design",
+    link: "ux-ui-design",
     description: "Crafting User-Centric Solutions",
     icon: Users,
     bgColor: "bg-gray-900",
   },
   {
     title: "AR & VR Development",
+    link: "ar-vr-development",
     description: "Crafting User-Centric Solutions",
     icon: Box,
     bgColor: "bg-gray-900",
   },
   {
     title: "Full Stack Web Development",
+    link: "full-stack-web-development",
     description: "Full Stack Web Development",
     icon: Code,
     bgColor: "bg-gray-900",
   },
   {
     title: "AI Calling Agency",
+    link: "ai-calling-agency",
     description: "Revolutionizing Business Communication",
     icon: Cpu,
     bgColor: "bg-gray-900",
   },
   {
     title: "Chatbot Development",
+    link: "chatbot-development",
     description: "Smarter, Faster Customer Interaction",
     icon: Bot,
     bgColor: "bg-gray-900",
   },
   {
     title: "Artificial Intelligence Solutions",
+    link: "artificial-intelligence-solutions",
     description: "Unlocking New Possibilities",
     icon: MemoryStick,
     bgColor: "bg-gray-900",
   },
   {
     title: "Robot Process Automation",
+    link: "robot-process-automation",
     description: "Turning Data into Strategic Insights",
     icon: Bot,
     bgColor: "bg-gray-900",
   },
   {
     title: "Data Science & Analytics",
+    link: "data-science-analytics",
     description: "Making Smarter Decisions",
     icon: Database,
     bgColor: "bg-gray-900",
   },
   {
     title: "Blockchain Development",
+    link: "blockchain-development",
     description: "Secure and Transparent Solutions",
     icon: Cloud,
     bgColor: "bg-gray-900",
   },
   {
     title: "Game Development",
+    link: "game-development",
     description: "Engaging Players with Cutting-Edge Technology",
     icon: Gamepad2,
     bgColor: "bg-gray-900",
   },
   {
     title: "IoT Development",
+    link: "iot-development",
     description: "Connecting the Digital World",
     icon: Network,
     bgColor: "bg-gray-900",
@@ -192,5 +209,54 @@ export const faqs = [
     question: "Do I get an invoice for GodverseAI?",
     answer:
       "Yes, we automatically generate and email invoices for all payments. You can also access your complete invoice history from your account settings.",
+  },
+];
+
+export const coreValues = [
+  {
+    id: 1,
+    icon: integrity,
+    title: "Integrity",
+    description:
+      "Transparency and honesty guide our interstellar relationships.",
+  },
+  {
+    id: 1,
+    icon: quality,
+    title: "Quality",
+    description:
+      "We pursue excellence in every line of code, every design pixel, every cosmic dimension.",
+  },
+  {
+    id: 1,
+    icon: success,
+    title: "Customer Success",
+    description:
+      " Your triumph is ours—measured by tangible impact and universal reach.",
+  },
+  {
+    id: 1,
+    icon: Infinite,
+    title: "Infinite Learning",
+    description:
+      "We explore beyond known boundaries, continuously expanding our quantum knowledge.",
+  },
+];
+
+export const visionAndMission = [
+  {
+    title: "Our Vision",
+    description:
+      "To be the most advanced AI-driven ecosystem that bridges the real and digital worlds.",
+  },
+  {
+    title: "Our Mission",
+    description:
+      "To empower businesses, innovators, and cosmic explorers with quantum-level AI solutions that redefine how we live, work, and connect—on Earth and beyond.",
+  },
+  {
+    title: "Our Journey",
+    description:
+      "Born from the cosmic alignment of tech visionaries, GodverseAI has rapidly evolved into a global technology powerhouse. Our portfolio spans startups to Fortune 500 firms, from local communities to off-world research stations.",
   },
 ];
