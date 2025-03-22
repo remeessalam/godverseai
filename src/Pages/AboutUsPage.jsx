@@ -59,11 +59,11 @@ const AboutUsPage = () => {
           <VisionMission />
           <OurStory />
           <UnlockEfficiency />
-          <div className="flex justify-center items-center flex-col">
+          <div className="flex justify-center items-center flex-col paddingtop paddingbottom">
             <div className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium">
               Latest Insights
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10 px-40 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 wrapper paddingtop  ">
               {randomPosts.map((post, index) => (
                 <BlogBody key={index} {...post} passkey={true} />
               ))}
