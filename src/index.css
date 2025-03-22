@@ -12,6 +12,10 @@
   border-radius: 8px;
 }
 
+html {
+  background-color: #020816;
+}
+
 @layer utilities {
   .wrapper {
     @apply max-w-7xl mx-auto px-4;
