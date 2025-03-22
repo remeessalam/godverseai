@@ -19,7 +19,7 @@ import Chatbot_DevelopmentSub1 from "../assets/images/services/Chatbot_Developme
 import Artificial_Intelligence_Solutions from "../assets/images/services/Artificial_Intelligence_Solutions.jpeg";
 import Artificial_Intelligence_Solutionssub1 from "../assets/images/services/Artificial_Intelligence_Solutionssub1.jpeg";
 import Artificial_Intelligence_Solutionssub2 from "../assets/images/services/Artificial_Intelligence_Solutionssub2.jpeg";
-import Data_Science_and_Analytics from "../assets/images/services/Data_Science_and_Analytics.png";
+import Data_Science_and_Analytics from "../assets/images/services/Data_Science_and_Analytics.jpeg";
 import Data_Science_and_Analyticssub1 from "../assets/images/services/Data_Science_and_Analyticssub1.jpeg";
 import Data_Science_and_Analyticssub2 from "../assets/images/services/Data_Science_and_Analyticssub2.png";
 import Robot_Process_automation from "../assets/images/services/Robot_Process_automation.png";
@@ -29,7 +29,7 @@ import Blockchain_Development from "../assets/images/services/Blockchain_Develop
 import Blockchain_DevelopmentSub1 from "../assets/images/services/Robot_Process_automationSub1.png";
 import Blockchain_DevelopmentSub2 from "../assets/images/services/Blockchain_DevelopmentSub2.jpeg";
 import Game_Development from "../assets/images/services/Game_Development.png";
-import Game_DevelopmentSub1 from "../assets/images/services/Game_DevelopmentSub1.png";
+import Game_DevelopmentSub1 from "../assets/images/services/Game_DevelopmentSub1.jpeg";
 import Game_DevelopmentSub2 from "../assets/images/services/Game_DevelopmentSub2.jpeg";
 import IoT_Development from "../assets/images/services/IoT_Development.jpeg";
 import IoT_DevelopmentSub1 from "../assets/images/services/IoT_DevelopmentSub1.jpeg";
