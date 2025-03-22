@@ -5,6 +5,7 @@ export const serviceDetails = [
   {
     id: 1,
     bannerimg: webdevbannerimg,
+    link: "mobile-app-development",
     imageone: appdevimg1,
     imgagetwo: appdevimg2,
     title: "Mobile App Development",

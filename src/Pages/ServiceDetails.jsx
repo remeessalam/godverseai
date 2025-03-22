@@ -2,9 +2,15 @@ import React from "react";
 import { serviceDetails } from "../util/services";
 import { Circle } from "lucide-react";
 import { useTheme } from "../Context/ThemeContext";
+import { useParams } from "react-router-dom";
 
 const ServiceDetails = () => {
-  const serviceDetail = serviceDetails[0];
+  const { title } = useParams();
+  const serviceDetail = serviceDetails.find(
+    (service) => service.link === title
+  );
+
+  // const serviceDetail = serviceDetails[0];
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
   return (
