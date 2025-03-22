@@ -45,7 +45,7 @@ const Faq = () => {
                   <Plus className="dark:text-white text-darkblack flex-shrink-0" />
                 </button>
                 {isOpen === index && (
-                  <div className="p-4 dark:text-white text-darkblack bg-opacity-5 bg-darkblack dark:bg-white rounded-b-lg mt-1">
+                  <div className="p-4 dark:text-white text-darkblack bg-opacity-5 bg-darkblack dark:bg-white/30 rounded-b-lg mt-1">
                     <p>{faq.answer}</p>
                   </div>
                 )}
