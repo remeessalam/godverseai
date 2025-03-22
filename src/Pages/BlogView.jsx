@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { blogPosts } from "../util/blog";
 import BlogBody from "../Components/blog/blogBody";
 import Faq from "../Components/Faq";
+import RoundedHeader from "../Components/RoundedHeader";
 
 function BlogView() {
   const { theme } = useTheme();
@@ -23,13 +24,13 @@ function BlogView() {
   const randomPosts = getRandomPosts(blogPosts, 3, blogId);
 
   return (
-    <>
-      <div className="relative px-[15rem] p-40  bg-white dark:bg-darkblack overflow-hidden ">
-        {/* <div
-          className={`absolute ${
-            isDarkMode ? `flex` : "hidden"
-          } -top-[28rem] blur-3xl left-0 w-full h-full bg-footerBackground  `}
-        />{" "} */}
+    <div className="relative bg-white dark:bg-darkblack">
+      <div
+        className={`absolute ${
+          isDarkMode ? `flex` : "hidden"
+        } md:-top-[109rem] -top-[172rem]  blur-3xl left-0 w-full h-full bg-footerBackground  `}
+      />{" "}
+      <div className="relative max-w-3xl mx-auto px-4  pt-[7rem]   overflow-hidden ">
         <ViewBlogHeader
           image={blog.imageUrl}
           title={blog.title}
@@ -37,11 +38,12 @@ function BlogView() {
           date={blog.date}
         />
         <ViewBlogContent />
+      </div>
+      <div className="wrapper paddingtop">
         <div className="flex justify-center items-center flex-col">
-          <div className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium">
-            Recent Posts
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10 dark:bg-darkblack">
+          <RoundedHeader title={"Recent Posts"} />
+          <h1 className="main-title my-3">Related Posts</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5 dark:bg-darkblack">
             {randomPosts.map((post, index) => (
               <BlogBody key={index} {...post} passkey={true} />
             ))}
@@ -49,7 +51,7 @@ function BlogView() {
         </div>
         <Faq />
       </div>
-    </>
+    </div>
   );
 }
 

@@ -2,9 +2,11 @@ import React from "react";
 
 function ViewBlogContent() {
   return (
-    <div className="p-8">
+    <div className="">
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Overview</h2>
+        <h2 className="text-2xl font-semibold dark:text-white my-4">
+          Overview
+        </h2>
         <p className="text-black dark:text-gray-400 ">
           Artificial Intelligence (AI) is no longer a futuristic concept—it's a
           necessity for enterprises aiming to stay ahead. In this blog, we
@@ -15,7 +17,9 @@ function ViewBlogContent() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Key Topics Covered</h2>
+        <h2 className="text-2xl font-semibold dark:text-white mb-4">
+          Key Topics Covered
+        </h2>
         <ul className="list-disc list-inside text-black dark:text-gray-400">
           <li>
             The Role of AI in Business Transformation - How AI enhances
