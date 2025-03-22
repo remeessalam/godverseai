@@ -9,7 +9,7 @@ import BlogView from "./Pages/BlogView";
 
 import ServicePage from "./Pages/ServicePage";
 import ServiceDetails from "./Pages/ServiceDetails";
-
+import LandingPage from "./Pages/LandingPage";
 
 const AppRouter = createBrowserRouter([
   {
@@ -30,6 +30,14 @@ const AppRouter = createBrowserRouter([
         element: <BlogView />,
       },
     ],
+  },
+  {
+    path: "/web-development",
+    element: <LandingPage page={"web-development"} />,
+  },
+  {
+    path: "/app-development",
+    element: <LandingPage page={"app-development"} />,
   },
 ]);
 

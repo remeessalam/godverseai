@@ -19,6 +19,14 @@ import integrity from "../assets/images/png/integrity.png";
 import quality from "../assets/images/png/quality.png";
 import success from "../assets/images/png/success.png";
 import Infinite from "../assets/images/png/Infinite.png";
+import { CgWebsite } from "react-icons/cg";
+import { GoFileMedia } from "react-icons/go";
+import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
+import { FaAppStoreIos } from "react-icons/fa";
+import { IoLogoAndroid } from "react-icons/io";
+import { SiFlutter } from "react-icons/si";
+import { TbDeviceMobileCode } from "react-icons/tb";
 
 export const services = [
   {
@@ -258,5 +266,78 @@ export const visionAndMission = [
     title: "Our Journey",
     description:
       "Born from the cosmic alignment of tech visionaries, GodverseAI has rapidly evolved into a global technology powerhouse. Our portfolio spans startups to Fortune 500 firms, from local communities to off-world research stations.",
+  },
+];
+
+// web development services
+export const webDevelopmentServices = [
+  {
+    id: 1,
+    title: "E-commerce Websites",
+    // icon: require("./assets/images/icons/online-shopping.png"),
+    img: CgWebsite,
+    description:
+      "Empowering online businesses with tailored e-commerce solutions powered by AI. Our platforms enhance customer engagement, streamline operations, and drive substantial revenue growth through personalized shopping experiences and intelligent recommendations.",
+  },
+  {
+    id: 2,
+    title: "Social Media Websites",
+    img: GoFileMedia,
+    // icon: require("./assets/images/icons/socialmedia.png"),
+    description:
+      "Creating custom social media websites that captivate audiences with AI-driven content recommendations and engagement strategies, building brand loyalty and driving growth effortlessly.",
+  },
+  {
+    id: 3,
+    title: "Landing Websites",
+    img: TfiLayoutMediaRightAlt,
+    // icon: require("./assets/images/icons/landing-page.png"),
+    description:
+      "Crafting high-converting landing pages with AI-enhanced design and user behavior tracking to grab attention and inspire action. Designs that showcase your brand’s message and maximize conversions through personalized experiences.",
+  },
+  {
+    id: 4,
+    title: "Custom Websites",
+    img: MdOutlineDashboardCustomize,
+    // icon: require("./assets/images/icons/software-development.png"),
+    description:
+      "Delivering bespoke websites powered by AI to meet your unique business needs. Our solutions seamlessly combine creativity, functionality, and AI-driven features for an exceptional online presence.",
+  },
+];
+
+// app development services
+export const appDevelopmentServices = [
+  {
+    id: 1,
+    title: "iOS App Development",
+    img: FaAppStoreIos,
+    // icon: require("./assets/images/icons/ios-development.png"),
+    description:
+      "Specializing in iOS app development using Swift and Objective-C. Delivering apps optimized for performance, speed, and responsiveness with AI-powered features like predictive analytics and personalized user experiences.",
+  },
+  {
+    id: 2,
+    title: "Android App Development",
+    img: IoLogoAndroid,
+    // icon: require("./assets/images/icons/android-development.png"),
+    description:
+      "Designing and developing Android apps tailored to your business goals. Leveraging Java and Kotlin alongside AI technologies to create robust, efficient applications with intelligent automation and enhanced user engagement.",
+  },
+  {
+    id: 3,
+    title: "Flutter App Development",
+    img: SiFlutter,
+
+    // icon: require("./assets/images/icons/flutter-development.png"),
+    description:
+      "Using Flutter to create apps for both iOS and Android with a single codebase. Integrating AI-driven solutions to overcome challenges, enhance performance, and deliver smarter, feature-rich applications.",
+  },
+  {
+    id: 4,
+    title: "Hybrid App Development",
+    img: TbDeviceMobileCode,
+    // icon: require("./assets/images/icons/hybrid-app-development.png"),
+    description:
+      "Developing feature-rich hybrid apps tailored to your business needs. Incorporating AI-powered tools to create mobile-friendly apps that work seamlessly across iOS and Android platforms while delivering intelligent insights and improved functionality.",
   },
 ];
