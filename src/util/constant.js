@@ -15,6 +15,11 @@ import file from "../assets/images/png/file.png";
 import graph from "../assets/images/png/graph.png";
 import rocket from "../assets/images/png/rocket.png";
 import start from "../assets/images/png/start.png";
+import integrity from "../assets/images/png/integrity.png";
+import quality from "../assets/images/png/quality.png";
+import success from "../assets/images/png/success.png";
+import Infinite from "../assets/images/png/Infinite.png";
+
 export const services = [
   {
     title: "Mobile App Development",
@@ -192,5 +197,54 @@ export const faqs = [
     question: "Do I get an invoice for GodverseAI?",
     answer:
       "Yes, we automatically generate and email invoices for all payments. You can also access your complete invoice history from your account settings.",
+  },
+];
+
+export const coreValues = [
+  {
+    id: 1,
+    icon: integrity,
+    title: "Integrity",
+    description:
+      "Transparency and honesty guide our interstellar relationships.",
+  },
+  {
+    id: 1,
+    icon: quality,
+    title: "Quality",
+    description:
+      "We pursue excellence in every line of code, every design pixel, every cosmic dimension.",
+  },
+  {
+    id: 1,
+    icon: success,
+    title: "Customer Success",
+    description:
+      " Your triumph is ours—measured by tangible impact and universal reach.",
+  },
+  {
+    id: 1,
+    icon: Infinite,
+    title: "Infinite Learning",
+    description:
+      "We explore beyond known boundaries, continuously expanding our quantum knowledge.",
+  },
+];
+
+export const visionAndMission = [
+  {
+    title: "Our Vision",
+    description:
+      "To be the most advanced AI-driven ecosystem that bridges the real and digital worlds.",
+  },
+  {
+    title: "Our Mission",
+    description:
+      "To empower businesses, innovators, and cosmic explorers with quantum-level AI solutions that redefine how we live, work, and connect—on Earth and beyond.",
+  },
+  {
+    title: "Our Journey",
+    description:
+      "Born from the cosmic alignment of tech visionaries, GodverseAI has rapidly evolved into a global technology powerhouse. Our portfolio spans startups to Fortune 500 firms, from local communities to off-world research stations.",
   },
 ];

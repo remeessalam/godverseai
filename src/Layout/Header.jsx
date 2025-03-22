@@ -26,16 +26,28 @@ const Header = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-white hover:text-blue-500">
+            <Link
+              to="/"
+              className="text-white hover:text-blue-300 dark:hover:text-primary"
+            >
               Home
             </Link>
-            <Link to="/about-us" className="text-white hover:text-blue-500">
+            <Link
+              to="/about-us"
+              className="text-white hover:text-blue-300 dark:hover:text-primary"
+            >
               About Us
             </Link>
-            <Link to="#" className="text-white hover:text-blue-500">
+            <Link
+              to="#"
+              className="text-white hover:text-blue-300 dark:hover:text-primary"
+            >
               Services
             </Link>
-            <Link to="#" className="text-white hover:text-blue-500">
+            <Link
+              to="#"
+              className="text-white hover:text-blue-300 dark:hover:text-primary"
+            >
               Blog
             </Link>
             <button onClick={navigateTo} className="primary-btn">
