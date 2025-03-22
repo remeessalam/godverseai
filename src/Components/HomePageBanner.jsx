@@ -1,7 +1,12 @@
 import React from "react";
 import bannervideo from "../assets/video/bannervideo.mp4";
 import ReactPlayer from "react-player";
+import { useNavigate } from "react-router-dom";
 const HomePageBanner = () => {
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(link);
+  };
   return (
     <div className="relative w-full">
       <ReactPlayer
@@ -32,8 +37,18 @@ const HomePageBanner = () => {
             Where Cosmic Innovation Meets Quantum-Level Intelligence
           </p>
           <div className="flex justify-center gap-5">
-            <button className="primary-btn">Get Start </button>
-            <button className="secondary-btn-white">Contact Us </button>
+            <button
+              onClick={() => navigateTo("/about-us")}
+              className="primary-btn"
+            >
+              Get Start{" "}
+            </button>
+            <button
+              onClick={() => navigateTo("/contact-us")}
+              className="secondary-btn-white"
+            >
+              Contact Us{" "}
+            </button>
           </div>
         </div>
       </div>

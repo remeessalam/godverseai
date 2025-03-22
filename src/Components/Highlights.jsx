@@ -1,8 +1,13 @@
 import React from "react";
 import RoundedHeader from "./RoundedHeader";
 import { highlights } from "../util/constant";
+import { useNavigate } from "react-router-dom";
 
 const Highlights = () => {
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(link);
+  };
   return (
     <section className="z-30">
       <div className="wrapper paddingtop paddingbottom">
@@ -18,7 +23,12 @@ const Highlights = () => {
               co-creation—partner with us to manifest futuristic solutions that
               captivate audiences across galaxies.
             </p>
-            <button className="secondary-btn-white w-fit">Get Started</button>
+            <button
+              onClick={() => navigateTo("/contact-us")}
+              className="secondary-btn-white w-fit"
+            >
+              Get Started
+            </button>
           </div>
           <div className="col-span-2 grid md:grid-cols-2 gap-4">
             {highlights.map((obj) => (

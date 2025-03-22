@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import backgroundimg from "../assets/images/backgroundimg.png";
 import backgroundwhiteimg from "../assets/images/backgroundwhiteimg.png";
 import howweworkimg from "../assets/images/howweworkimg.jpeg";
@@ -6,6 +7,10 @@ import { useTheme } from "../Context/ThemeContext";
 const HowWeWork = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(link);
+  };
   return (
     <div>
       <div className=" relative overflow-hidden paddingtop paddingbottom">
@@ -48,7 +53,12 @@ const HowWeWork = () => {
                 support, ensuring our solutions evolve in tandem with your
                 business growth.
               </p>
-              <button className="primary-btn w-fit">Get Started</button>
+              <button
+                onClick={() => navigateTo("/contact-us")}
+                className="primary-btn w-fit"
+              >
+                Get Started
+              </button>
             </div>
           </section>
 

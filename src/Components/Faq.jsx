@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import { faqs } from "../util/constant";
 import { FilePlus, Plus } from "lucide-react";
 import RoundedHeader from "./RoundedHeader";
+import { useNavigate } from "react-router-dom";
 
 const Faq = () => {
   const [isOpen, setIsOpen] = useState("");
-
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(link);
+  };
   return (
     <section>
       <div className="wrapper paddingtop paddingbottom">
@@ -19,7 +23,12 @@ const Faq = () => {
               In the digital age, your voice on social media is your brand's
               heartbeat.
             </p>
-            <button className="secondary-btn-white w-fit">Get Started</button>
+            <button
+              onClick={() => navigateTo("/contact-us")}
+              className="secondary-btn-white w-fit"
+            >
+              Get Started
+            </button>
           </div>
           <div className="col-span-2">
             {faqs.map((faq, index) => (

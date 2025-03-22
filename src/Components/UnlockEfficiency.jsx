@@ -1,7 +1,12 @@
 import React from "react";
 import RoundedHeader from "./RoundedHeader";
+import { useNavigate } from "react-router-dom";
 
 const UnlockEfficiency = () => {
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(link);
+  };
   return (
     <section>
       <div className="wrapper w-full flex flex-col gap-10 items-center paddingtop paddingbottom">
@@ -15,7 +20,12 @@ const UnlockEfficiency = () => {
           learning. Enhance efficiency, streamline workflows, and deliver
           smarter customer experiences with next-gen AI technology.
         </p>
-        <button className="primary-btn w-fit">Contact Us</button>
+        <button
+          onClick={() => navigateTo("/contact-us")}
+          className="primary-btn w-fit"
+        >
+          Contact Us
+        </button>
       </div>
     </section>
   );

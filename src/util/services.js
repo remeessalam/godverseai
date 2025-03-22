@@ -77,6 +77,7 @@ export const serviceDetails = [
   {
     id: 2,
     bannerimg: UX_UI_Design,
+    link: "ux-ui-design",
     imageone: UX_UI_Sub1,
     imgagetwo: UX_UI_Sub2,
     title: "UX/UI Design",
@@ -114,6 +115,7 @@ export const serviceDetails = [
   {
     id: 3,
     bannerimg: AR_VR_Development,
+    link: "ar-vr-development",
     imageone: AR_VR_sub1,
     imgagetwo: AR_VR_sub2,
     title: "AR & VR Development",
@@ -151,6 +153,7 @@ export const serviceDetails = [
   {
     id: 4,
     bannerimg: Full_Stack_Development,
+    link: "full-stack-web-development",
     imageone: Full_Stack_sub1,
     imgagetwo: Full_Stack_sub2,
     title: " Full Stack Web Development",
@@ -188,6 +191,7 @@ export const serviceDetails = [
   {
     id: 5,
     bannerimg: AICallingAgency,
+    link: "ai-calling-agency",
     imageone: AICallingAgencysub1,
     imgagetwo: AICallingAgencysub2,
     title: " AI Calling Agency",
@@ -226,6 +230,7 @@ export const serviceDetails = [
   {
     id: 6,
     bannerimg: Chatbot_Development,
+    link: "chatbot-development",
     imageone: Chatbot_DevelopmentSub1,
     imgagetwo: Chatbot_DevelopmentSub2,
     title: " Chatbot Development",
@@ -263,6 +268,7 @@ export const serviceDetails = [
   {
     id: 7,
     bannerimg: Artificial_Intelligence_Solutions,
+    link: "artificial-intelligence-solutions",
     imageone: Artificial_Intelligence_Solutionssub1,
     imgagetwo: Artificial_Intelligence_Solutionssub2,
     title: "Artificial Intelligence Solutions",
@@ -300,6 +306,7 @@ export const serviceDetails = [
   {
     id: 8,
     bannerimg: Data_Science_and_Analytics,
+    link: "data-science-analytics",
     imageone: Data_Science_and_Analyticssub1,
     imgagetwo: Data_Science_and_Analyticssub2,
     title: " Data Science and Analytics",
@@ -338,6 +345,7 @@ export const serviceDetails = [
   {
     id: 9,
     bannerimg: Robot_Process_automation,
+    link: "robot-process-automation",
     imageone: Robot_Process_automationSub1,
     imgagetwo: Robot_Process_automationSub2,
     title: "Robot Process automation",
@@ -376,6 +384,7 @@ export const serviceDetails = [
   {
     id: 10,
     bannerimg: Blockchain_Development,
+    link: "blockchain-development",
     imageone: Blockchain_DevelopmentSub1,
     imgagetwo: Blockchain_DevelopmentSub2,
     title: "Blockchain Development",
@@ -413,6 +422,7 @@ export const serviceDetails = [
   {
     id: 11,
     bannerimg: Game_Development,
+    link: "game-development",
     imageone: Game_DevelopmentSub1,
     imgagetwo: Game_DevelopmentSub2,
     title: " Game Development",
@@ -450,6 +460,7 @@ export const serviceDetails = [
   {
     id: 12,
     bannerimg: IoT_Development,
+    link: "iot-development",
     imageone: IoT_DevelopmentSub1,
     imgagetwo: IoT_DevelopmentSub2,
     title: " IoT Development",

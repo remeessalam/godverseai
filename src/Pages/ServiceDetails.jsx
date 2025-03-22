@@ -17,7 +17,7 @@ const ServiceDetails = () => {
     <div className="dark:bg-darkblack">
       <div className="pt-[4.5rem]">
         <section
-          className=" flex justify-start p-10 items-end h-[30rem] bg-current bg-cover md:bg-contain bg-no-repeat bg-center"
+          className=" flex justify-start p-10 items-end h-[30rem] bg-current bg-cover md:bg-cover bg-no-repeat bg-center"
           style={{ backgroundImage: `url(${serviceDetail.bannerimg})` }}
         >
           <h1 className="text-[48px] font-bold text-white">

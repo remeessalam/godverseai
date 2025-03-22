@@ -1,7 +1,12 @@
 import visionmissionimg from "../assets/images/visionmissionimg.png";
 import { visionAndMission } from "../util/constant";
 import userimg from "../assets/images/userimg.jpeg";
+import { useNavigate } from "react-router-dom";
 const VisionMission = () => {
+  const navigate = useNavigate();
+  const navigateTo = (link) => {
+    navigate(link);
+  };
   return (
     <section>
       <div className="wrapper paddingtop paddingbottom grid md:grid-cols-2 gap-[5rem]">
@@ -15,7 +20,12 @@ const VisionMission = () => {
             </div>
           ))}
           <div className="mt-10">
-            <button className="primary-btn">Contact Us</button>
+            <button
+              onClick={() => navigateTo("/contact-us")}
+              className="primary-btn"
+            >
+              Contact Us
+            </button>
             <button>Our Services</button>
           </div>
         </div>

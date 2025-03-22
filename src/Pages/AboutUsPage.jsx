@@ -63,7 +63,7 @@ const AboutUsPage = () => {
             <div className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium">
               Latest Insights
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10 px-40 dark:bg-darkblack">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10 px-40 ">
               {randomPosts.map((post, index) => (
                 <BlogBody key={index} {...post} passkey={true} />
               ))}
