@@ -35,7 +35,7 @@ const Header = () => {
             <Link to="#" className="text-white hover:text-blue-500">
               Services
             </Link>
-            <Link to="#" className="text-white hover:text-blue-500">
+            <Link to="/blog" className="text-white hover:text-blue-500">
               Blog
             </Link>
             <button onClick={navigateTo} className="primary-btn">
