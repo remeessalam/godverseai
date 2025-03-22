@@ -2,14 +2,12 @@ import MapComponent from "../Components/MapComponent";
 
 const ContactUsPage = () => {
   return (
-    <div className="min-h-screen bg-[#0a0e1a] text-white flex flex-col items-center justify-center py-10 px-4">
+    <div className="min-h-screen dark:bg-darkblack text-white flex flex-col items-center justify-center pt-[7rem] px-4">
       <div className="w-full max-w-6xl">
         <div className="flex flex-col md:flex-row gap-8 mb-16">
           <div className="w-full md:w-1/2">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8">
-              Get in Touch
-            </h1>
-            <div className="space-y-4">
+            <h1 className="main-title mb-8">Get in Touch</h1>
+            <div className="space-y-4 desc">
               <p>Phone: [Your Phone Number]</p>
               <p>Email: [Your Email Address]</p>
               <p>Office Address: [Your Office Address]</p>
@@ -20,8 +18,8 @@ const ContactUsPage = () => {
           <MapComponent />
         </div>
 
-        <div className="w-full max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">
+        <div className="w-full max-w-2xl mx-auto paddingbottom">
+          <h2 className="main-title mb-8 text-center">
             Schedule a Consultation
           </h2>
           <form className="space-y-4">
