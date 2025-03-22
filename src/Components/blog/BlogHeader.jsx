@@ -11,16 +11,21 @@ function BlogHeader() {
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
-        } -top-[28rem] blur-3xl left-0 w-full h-full bg-footerBackground  `}
+        } -top-[18rem] blur-3xl left-0 w-full h-full bg-footerBackground  `}
       />{" "}
       <header className="flex justify-center items-center flex-col text-center py-10 bg-white dark:bg-darkblack dark:text-white">
-        <h1 className="text-3xl font-semibold mb-2">
-          Explore Latest Blog Posts
-        </h1>
-        <p className="text-gray-600 dark:text-white mb-5">
-          Specialising in crafting visually stunning and highly functional user
-          interfaces.
-        </p>
+        <div className="bg-white dark:text-black rounded-full py-2 px-6  shadow-md text-lg font-medium">
+          Latest Blogs
+        </div>
+        <div className="my-8">
+          <h1 className="text-3xl font-semibold mb-2">
+            Explore Latest Blog Posts
+          </h1>
+          <p className="text-gray-600 dark:text-white mb-5">
+            Specialising in crafting visually stunning and highly functional
+            user interfaces.
+          </p>
+        </div>
         <div className="relative w-96 ">
           {" "}
           <input
