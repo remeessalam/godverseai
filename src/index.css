@@ -31,7 +31,7 @@
     @apply bg-primary text-white px-6 py-2 rounded-md hover:bg-primary/70 transition-colors;
   }
   .secondary-btn-white {
-    @apply bg-white text-black px-6 py-2 rounded-md hover:bg-white/70 transition-colors;
+    @apply dark:bg-white hover:bg-gradient-to-b hover:from-white hover:to-primary bg-gradient-to-b from-white to-[#E5E5E8] text-black px-6 py-2 rounded-md hover:bg-white/70 transition-colors duration-300;
   }
   .darkandlightcardhovertext {
     @apply dark:group-hover:text-white group-hover:text-white;

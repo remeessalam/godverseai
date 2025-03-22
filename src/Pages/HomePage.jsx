@@ -34,7 +34,7 @@ const HomePage = () => {
         </div>
       </section>
       <WhyChooseUs />
-      <section className="bg-darkblack ">
+      <section className="dark:bg-darkblack ">
         <div className="flex flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
           <h1 className="main-title">Your Ultimate AI Solution</h1>
