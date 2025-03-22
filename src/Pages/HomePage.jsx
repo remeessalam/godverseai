@@ -8,6 +8,7 @@ import Testimonials from "../Components/Testimonials";
 import Highlights from "../Components/Highlights";
 import Faq from "../Components/Faq";
 import { useTheme } from "../Context/ThemeContext";
+import Industries from "../Components/Industries";
 const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -46,6 +47,7 @@ const HomePage = () => {
         </div>
       </section>
       <ServicesGrid />
+      <Industries />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
         <div
           className={`absolute ${

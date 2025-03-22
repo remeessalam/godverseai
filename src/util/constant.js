@@ -19,6 +19,16 @@ import integrity from "../assets/images/png/integrity.png";
 import quality from "../assets/images/png/quality.png";
 import success from "../assets/images/png/success.png";
 import Infinite from "../assets/images/png/Infinite.png";
+//industries
+import governance from "../assets/images/industries/governance.jpg";
+import fintech from "../assets/images/industries/fintech.jpg";
+import healthcare from "../assets/images/industries/healthcare.jpg";
+import advancedrobotics from "../assets/images/industries/advancedrobotics.jpg";
+import energy from "../assets/images/industries/energy.jpg";
+import edtech from "../assets/images/industries/edtech.jpg";
+import space from "../assets/images/industries/space.jpg";
+import security from "../assets/images/industries/security.jpg";
+
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
@@ -339,5 +349,64 @@ export const appDevelopmentServices = [
     // icon: require("./assets/images/icons/hybrid-app-development.png"),
     description:
       "Developing feature-rich hybrid apps tailored to your business needs. Incorporating AI-powered tools to create mobile-friendly apps that work seamlessly across iOS and Android platforms while delivering intelligent insights and improved functionality.",
+  },
+];
+
+export const futureTechSectors = [
+  {
+    id: 1,
+    img: governance,
+    title: "Governance & Law",
+    description:
+      "AI-driven governance systems, decentralized smart city infrastructure, and AI-optimized public resource management for transparent and efficient decision-making.",
+  },
+  {
+    id: 2,
+    img: fintech,
+    title: "Fintech & Decentralized Economy",
+    description:
+      "Holo-economy platforms integrating AI, blockchain, and quantum computing, self-regulating DeFi ecosystems, and quantum-secure financial systems.",
+  },
+  {
+    id: 3,
+    img: healthcare,
+    title: "Healthcare & Bioinformatics",
+    description:
+      "AI-augmented healthcare ecosystems, personalized genetic and consciousness-based medicine, and neural AI interfaces for mind-body optimization.",
+  },
+  {
+    id: 4,
+    img: advancedrobotics,
+    title: "Advanced Robotics & Automation",
+    description:
+      "Quantum AI-driven manufacturing, sentient AI collaborators in R&D, and self-sustaining AI factories for intelligent industrial solutions.",
+  },
+  {
+    id: 5,
+    img: energy,
+    title: "Energy & Climate Sustainability",
+    description:
+      "AI-based universal energy flow management, quantum blockchain for global resource distribution, and zero-point energy-powered decentralized grids.",
+  },
+  {
+    id: 6,
+    img: edtech,
+    title: "Edtech & Meta-Learning",
+    description:
+      "AI-driven knowledge expansion networks, holo-academies for experiential learning, and quantum neuro-learning systems for accelerated education.",
+  },
+  {
+    id: 7,
+    img: space,
+    title: "Space & Extraterrestrial Expansion",
+    description:
+      "Astrocomputing networks utilizing AI and quantum for space travel, terraforming AI systems, and extraterrestrial economy with Web 5.0 communication.",
+  },
+  {
+    id: 8,
+    img: security,
+    title: "Advanced Defense & Autonomous Security",
+    description:
+      "AI-driven autonomous weapon systems, private military contracting for force projection, and directed energy and hypersonic tech for advanced defense.",
   },
 ];
