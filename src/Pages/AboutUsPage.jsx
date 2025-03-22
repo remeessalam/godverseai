@@ -6,9 +6,18 @@ import VisionMission from "../Components/VisionMission";
 import OurStory from "../Components/OurStory";
 import UnlockEfficiency from "../Components/UnlockEfficiency";
 import Faq from "../Components/Faq";
+import BlogBody from "../Components/blog/blogBody";
+import { blogPosts } from "../util/blog";
 const AboutUsPage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
+
+  function getRandomPosts(posts, count) {
+    const shuffled = [...posts].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  }
+
+  const randomPosts = getRandomPosts(blogPosts, 3);
   return (
     <div className=" bg-white dark:bg-darkblack">
       <section className="relative pt-[7rem]  overflow-hidden">
@@ -50,6 +59,16 @@ const AboutUsPage = () => {
           <VisionMission />
           <OurStory />
           <UnlockEfficiency />
+          <div className="flex justify-center items-center flex-col">
+            <div className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium">
+              Latest Insights
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10 px-40 dark:bg-darkblack">
+              {randomPosts.map((post, index) => (
+                <BlogBody key={index} {...post} passkey={true} />
+              ))}
+            </div>
+          </div>
           <Faq />
         </section>
       </div>

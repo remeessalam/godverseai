@@ -5,6 +5,7 @@ import ViewBlogContent from "../Components/blog/viewBlogContent";
 import { useParams } from "react-router-dom";
 import { blogPosts } from "../util/blog";
 import BlogBody from "../Components/blog/blogBody";
+import Faq from "../Components/Faq";
 
 function BlogView() {
   const { theme } = useTheme();
@@ -46,6 +47,7 @@ function BlogView() {
             ))}
           </div>
         </div>
+        <Faq />
       </div>
     </>
   );

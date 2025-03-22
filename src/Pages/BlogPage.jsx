@@ -2,6 +2,7 @@ import React from "react";
 import { blogPosts } from "../util/blog";
 import BlogBody from "../Components/blog/blogBody";
 import BlogHeader from "../Components/blog/BlogHeader";
+import Faq from "../Components/Faq";
 
 function BlogPage() {
   return (
@@ -11,6 +12,7 @@ function BlogPage() {
         {blogPosts.map((post, index) => (
           <BlogBody key={index} {...post} />
         ))}
+      <Faq/>
       </div>
     </>
   );
