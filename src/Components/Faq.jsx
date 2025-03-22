@@ -30,11 +30,13 @@ const Faq = () => {
                     setIsOpen((prev) => (prev === index ? "" : index))
                   }
                 >
-                  <span className="text-left">{faq.question}</span>
-                  <Plus className="text-white flex-shrink-0" />
+                  <span className="text-left font-medium text-lg dark:text-white text-darkblack">
+                    {faq.question}
+                  </span>
+                  <Plus className="dark:text-white text-darkblack flex-shrink-0" />
                 </button>
                 {isOpen === index && (
-                  <div className="p-4 text-white bg-opacity-5 bg-white rounded-b-lg mt-1">
+                  <div className="p-4 dark:text-white text-darkblack bg-opacity-5 bg-darkblack dark:bg-white rounded-b-lg mt-1">
                     <p>{faq.answer}</p>
                   </div>
                 )}

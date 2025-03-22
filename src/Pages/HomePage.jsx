@@ -7,7 +7,10 @@ import ServicesGrid from "../Components/ServicesGrid";
 import Testimonials from "../Components/Testimonials";
 import Highlights from "../Components/Highlights";
 import Faq from "../Components/Faq";
+import { useTheme } from "../Context/ThemeContext";
 const HomePage = () => {
+  const { theme } = useTheme();
+  const isDarkMode = theme === "dark";
   return (
     <div className="min-h-screen">
       <HomePageBanner />
@@ -44,7 +47,11 @@ const HomePage = () => {
       </section>
       <ServicesGrid />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
-        <div className="absolute -bottom-[50rem] -left-[50rem] w-full h-full bg-background blur-3xl opacity-70 z-0" />
+        <div
+          className={`absolute ${
+            isDarkMode ? `flex` : `hidden`
+          } -bottom-[50rem] -left-[50rem] w-full h-full bg-background blur-3xl opacity-70 z-0`}
+        />
         <div className="relative z-10 w-full h-full">
           <Testimonials />
           <Highlights />
