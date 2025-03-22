@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import { useTheme } from "../Context/ThemeContext";
 
@@ -28,20 +29,20 @@ const Footer = () => {
               <h3 className="text-white font-medium mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="#about"
+                  <Link
+                    to="/about-us"
                     className="text-white hover:text-gray-300 text-sm"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#services"
+                  <Link
+                    to="/services"
                     className="text-white hover:text-gray-300 text-sm"
                   >
                     Services
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -50,20 +51,20 @@ const Footer = () => {
               <h3 className="text-white font-medium mb-4">Information</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="/blog"
+                  <Link
+                    to="/blog"
                     className="text-white hover:text-gray-300 text-sm"
                   >
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact-us"
                     className="text-white hover:text-gray-300 text-sm"
                   >
                     Contact US
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
