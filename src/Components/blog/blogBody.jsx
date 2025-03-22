@@ -11,8 +11,8 @@ function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
   return (
     <>
       <article
-        className={`dark:border rounded-lg overflow-hidden dark:shadow-md dark:bg-darkblack flex justify-center items-center flex-col ${
-          passkey ? "" : "w-[380px]"
+        className={`dark:border dark:border-gray-700 rounded-xl overflow-hidden dark:shadow-md dark:bg-darkblack flex  items-center flex-col ${
+          passkey ? "" : "w-full"
         }`}
         onClick={() =>
           blogPageChange({
@@ -20,11 +20,14 @@ function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
           })
         }
       >
-        <img
-          src={imageUrl}
-          alt={title}
-          className="w-[350px] h-[211px] rounded-lg mt-3"
-        />
+        <div className="rounded-xl overflow-hidden px-4 object-cover w-full">
+          <img
+            src={imageUrl}
+            alt={title}
+            // className="w-[350px] h-[211px] rounded-lg mt-3"
+            className="w-full h-[211px] object-cover rounded-xl  mt-3"
+          />
+        </div>
         <div className="p-4">
           <p className="text-sm text-gray-500 dark:text-white">{readTime}</p>
           <h2 className="text-xl font-semibold mb-2 dark:text-white">

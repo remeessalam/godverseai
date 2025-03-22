@@ -7,7 +7,7 @@ function BlogHeader() {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
   return (
-    <div className="relative pt-[7rem] bg-white dark:bg-darkblack overflow-hidden">
+    <div className="relative wrapper pt-[7rem] bg-white dark:bg-darkblack overflow-hidden">
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
@@ -26,7 +26,7 @@ function BlogHeader() {
             user interfaces.
           </p>
         </div>
-        <div className="relative w-96 ">
+        <div className="relative w-full sm:w-96 ">
           {" "}
           <input
             type="text"
