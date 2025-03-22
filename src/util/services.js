@@ -1,7 +1,6 @@
 import webdevbannerimg from "../assets/images/services/appdevbannerimg.png";
 import appdevimg1 from "../assets/images/services/appdevimg1.png";
 import appdevimg2 from "../assets/images/services/appdevimg2.jpeg";
-<<<<<<< HEAD
 import UX_UI_Design from "../assets/images/services/UX_UI_Design.png";
 import UX_UI_Sub1 from "../assets/images/services/UX_UI_Sub1.png";
 import UX_UI_Sub2 from "../assets/images/services/UX_UI_Sub2.png";
@@ -35,8 +34,6 @@ import Game_DevelopmentSub2 from "../assets/images/services/Game_DevelopmentSub2
 import IoT_Development from "../assets/images/services/IoT_Development.jpeg";
 import IoT_DevelopmentSub1 from "../assets/images/services/IoT_DevelopmentSub1.jpeg";
 import IoT_DevelopmentSub2 from "../assets/images/services/IoT_DevelopmentSub2.jpeg";
-=======
->>>>>>> e5ff95de7760d4025a46d7c08dcebfd224e0796f
 export const serviceDetails = [
   {
     id: 1,
