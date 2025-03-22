@@ -39,7 +39,7 @@ const Header = () => {
               About Us
             </Link>
             <Link
-              to="#"
+              to="/services"
               className="text-white hover:text-blue-300 dark:hover:text-primary"
             >
               Services
@@ -97,7 +97,7 @@ const Header = () => {
               About Us
             </Link>
             <Link
-              to="#"
+              to="/services"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Services

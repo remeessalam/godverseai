@@ -28,6 +28,9 @@
   .desc {
     @apply text-base font-normal dark:text-white text-darkbackground;
   }
+  .section-heading {
+    @apply text-[32px] font-bold;
+  }
   .hero-heading {
     @apply font-bold text-2xl text-white;
   }
