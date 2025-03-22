@@ -44,10 +44,12 @@ const Header = () => {
             >
               Services
             </Link>
+
             <Link
-              to="#"
+              to="/blog"
               className="text-white hover:text-blue-300 dark:hover:text-primary"
             >
+
               Blog
             </Link>
             <button onClick={navigateTo} className="primary-btn">
