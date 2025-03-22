@@ -23,11 +23,10 @@ function BlogHeader() {
         </p>
         <div className="relative w-96 ">
           {" "}
-          {/* Container for relative positioning */}
           <input
             type="text"
             placeholder="Search article..."
-            className="bg-black text-white rounded-full py-2 pl-10 pr-4 w-full focus:outline-none" // Adjusted padding
+            className="bg-black dark:bg-white text-white rounded-full py-2 pl-10 pr-4 w-full focus:outline-none" // Adjusted padding
           />
           <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
             <img
