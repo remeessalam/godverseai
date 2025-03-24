@@ -3,6 +3,8 @@ import { Sun, Moon, Menu, X } from "lucide-react";
 import logo from "../../assets/images/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useTheme } from "../../Context/ThemeContext";
+import { Link as Scrolllink } from "react-scroll";
+
 const LandingHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
@@ -32,18 +34,30 @@ const LandingHeader = () => {
             >
               Home
             </Link>
-            <Link
-              to="/about-us"
+            <Scrolllink
+              to="about-us"
+              key={"about-us"}
+              spy={true}
+              smooth={true}
+              offset={-140}
+              duration={1000}
+              activeClass="active-link text-blue-300 dark:text-primary"
               className="text-white hover:text-blue-300 dark:hover:text-primary"
             >
               About Us
-            </Link>
-            <Link
-              to="/services"
+            </Scrolllink>
+            <Scrolllink
+              to="services"
+              key={"services"}
+              spy={true}
+              smooth={true}
+              offset={-140}
+              duration={1000}
+              activeClass="active-link text-blue-300 dark:text-primary"
               className="text-white hover:text-blue-300 dark:hover:text-primary"
             >
               Services
-            </Link>
+            </Scrolllink>
 
             <Link
               to="/blog"
@@ -51,9 +65,18 @@ const LandingHeader = () => {
             >
               Blog
             </Link>
-            <button onClick={navigateTo} className="primary-btn">
+            <Scrolllink
+              to="contact"
+              key={"contact"}
+              spy={true}
+              smooth={true}
+              offset={-140}
+              duration={1000}
+              activeClass="active-link "
+              className="primary-btn"
+            >
               Contact Us
-            </button>
+            </Scrolllink>
             <button
               onClick={toggleTheme}
               className={`p-2 rounded-full bg-gray-100 dark:bg-gray-800 dark:text-yellow-300 text-gray-600  `}
@@ -91,30 +114,47 @@ const LandingHeader = () => {
             >
               Home
             </Link>
-            <Link
-              to="/about-us"
+            <Scrolllink
+              to="about-us"
+              key={"about-us"}
+              spy={true}
+              smooth={true}
+              offset={-140}
+              duration={1000}
+              activeClass="active-link text-blue-300 dark:text-primary"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               About Us
-            </Link>
-            <Link
-              to="/services"
+            </Scrolllink>
+            <Scrolllink
+              to="services"
+              key={"services"}
+              spy={true}
+              smooth={true}
+              offset={-140}
+              duration={1000}
+              activeClass="active-link text-blue-300 dark:text-primary"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Services
-            </Link>
+            </Scrolllink>
             <Link
-              to="#"
+              to="/blog"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Blog
             </Link>
-            <button
-              onClick={navigateTo}
+            <Scrolllink
+              to="contact"
+              key={"contact"}
+              spy={true}
+              smooth={true}
+              offset={-140}
+              duration={1000}
               className="w-full text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
             >
               Contact Us
-            </button>
+            </Scrolllink>
           </div>
         </div>
       )}

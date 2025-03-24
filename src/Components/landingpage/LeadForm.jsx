@@ -59,7 +59,7 @@ const LeadForm = () => {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto px-4    mb-[4rem] ">
+    <div id="contact" className="w-full max-w-2xl mx-auto px-4    mb-[4rem] ">
       <div className="dark:bg-transparent bg-darkblack p-7 rounded-xl">
         <h2 className="text-3xl font-bold mb-8 text-center text-white">
           Schedule a Consultation

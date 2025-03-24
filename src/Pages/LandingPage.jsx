@@ -20,7 +20,7 @@ const LandingPage = ({ page }) => {
       <LandingHeader />
       <div className="bg-white dark:bg-darkblack">
         <HomePageBanner />
-        <section>
+        <section id="about-us">
           <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
             <img src={homeaboutimg} alt="homeaboutimg" />
             <div>

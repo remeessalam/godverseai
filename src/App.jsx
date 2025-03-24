@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { lazy, Suspense } from "react";
 import { Toaster } from "react-hot-toast";
 const AppLayout = lazy(() => import("./Layout/AppLayout"));
@@ -16,11 +15,7 @@ const ServiceDetails = lazy(() => import("./Pages/ServiceDetails"));
 const LandingPage = lazy(() => import("./Pages/LandingPage"));
 
 import { LoadingSpinner } from "./Components/Loader";
-AOS.init({
-  once: true,
-  duration: 1000,
-  offset: -10,
-});
+
 const AppRouter = createBrowserRouter([
   {
     path: "/",
@@ -36,8 +31,8 @@ const AppRouter = createBrowserRouter([
               color: "#ffffff",
             },
           }}
-        />{" "}
-        <AppLayout />{" "}
+        />
+        <AppLayout />
       </Suspense>
     ),
 
@@ -59,11 +54,39 @@ const AppRouter = createBrowserRouter([
   },
   {
     path: "/web-development",
-    element: <LandingPage page={"web-development"} />,
+    element: (
+      <Suspense fallback={<LoadingSpinner />}>
+        <Toaster
+          position="top-bottom"
+          toastOptions={{
+            style: {
+              zIndex: "10000",
+              background: "#010C2A",
+              color: "#ffffff",
+            },
+          }}
+        />
+        <LandingPage page={"web-development"} />
+      </Suspense>
+    ),
   },
   {
     path: "/app-development",
-    element: <LandingPage page={"app-development"} />,
+    element: (
+      <Suspense fallback={<LoadingSpinner />}>
+        <Toaster
+          position="top-bottom"
+          toastOptions={{
+            style: {
+              zIndex: "10000",
+              background: "#010C2A",
+              color: "#ffffff",
+            },
+          }}
+        />
+        <LandingPage page={"app-development"} />
+      </Suspense>
+    ),
   },
 ]);
 
