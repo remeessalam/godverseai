@@ -1,17 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
-import AppLayout from "./Layout/AppLayout";
-import ContactUsPage from "./Pages/ContactUsPage";
-import HomePage from "./Pages/HomePage";
-import AboutUsPage from "./Pages/AboutUsPage";
-
-import BlogPage from "./Pages/BlogPage";
-import BlogView from "./Pages/BlogView";
-
-import ServicePage from "./Pages/ServicePage";
-import ServiceDetails from "./Pages/ServiceDetails";
-import LandingPage from "./Pages/LandingPage";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { lazy, Suspense } from "react";
+import { Toaster } from "react-hot-toast";
+const AppLayout = lazy(() => import("./Layout/AppLayout"));
+const ContactUsPage = lazy(() => import("./Pages/ContactUsPage"));
+const HomePage = lazy(() => import("./Pages/HomePage"));
+const AboutUsPage = lazy(() => import("./Pages/AboutUsPage"));
+
+const BlogPage = lazy(() => import("./Pages/BlogPage"));
+const BlogView = lazy(() => import("./Pages/BlogView"));
+
+const ServicePage = lazy(() => import("./Pages/ServicePage"));
+const ServiceDetails = lazy(() => import("./Pages/ServiceDetails"));
+const LandingPage = lazy(() => import("./Pages/LandingPage"));
+
+import { LoadingSpinner } from "./Components/Loader";
 AOS.init({
   once: true,
   duration: 1000,
@@ -20,7 +24,23 @@ AOS.init({
 const AppRouter = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout />,
+    element: (
+      // <LoadingSpinner />
+      <Suspense fallback={<LoadingSpinner />}>
+        <Toaster
+          position="top-bottom"
+          toastOptions={{
+            style: {
+              zIndex: "10000",
+              background: "#010C2A",
+              color: "#ffffff",
+            },
+          }}
+        />{" "}
+        <AppLayout />{" "}
+      </Suspense>
+    ),
+
     children: [
       { path: "/", element: <HomePage /> },
       { path: "/about-us", element: <AboutUsPage /> },
