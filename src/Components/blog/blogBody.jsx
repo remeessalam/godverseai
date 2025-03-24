@@ -11,6 +11,7 @@ function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
   return (
     <>
       <article
+        data-aos="fade-up"
         className={`dark:border dark:border-gray-700 rounded-xl overflow-hidden dark:shadow-md dark:bg-darkblack flex  items-center flex-col ${
           passkey ? "" : "w-full"
         }`}

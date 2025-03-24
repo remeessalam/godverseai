@@ -5,7 +5,7 @@ function ViewBlogHeader({ image, title, readTime, date }) {
   console.log(image, "imageUrl");
 
   return (
-    <header className=" z-10">
+    <header className=" z-10" data-aos="fade-up">
       <h1 className="text-3xl dark:text-white font-bold mb-2">{title}</h1>
       <div className="flex items-center text-sm text-gray-400 dark:text-white gap-5 py-8">
         <span>{date}</span>

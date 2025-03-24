@@ -9,6 +9,7 @@ import Highlights from "../Components/Highlights";
 import Faq from "../Components/Faq";
 import { useTheme } from "../Context/ThemeContext";
 import Industries from "../Components/Industries";
+import Ourvalues from "../Components/Ourvalues";
 const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -17,10 +18,12 @@ const HomePage = () => {
       <HomePageBanner />
       <section>
         <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
-          <img src={homeaboutimg} alt="homeaboutimg" />
+          <img data-aos="fade-right" src={homeaboutimg} alt="homeaboutimg" />
           <div>
-            <h1 className="main-title leading-tight">Welcome to GodverseAI</h1>
-            <p className="desc mt-4">
+            <h1 className="main-title leading-tight" data-aos="fade-left">
+              Welcome to GodverseAI
+            </h1>
+            <p className="desc mt-4" data-aos="fade-left">
               In a reality where technology evolves at light speed, GodverseAI
               stands at the intersection of cosmic insight and cutting-edge
               innovation. By merging quantum-level thinking with AI-driven
@@ -35,11 +38,14 @@ const HomePage = () => {
         </div>
       </section>
       <WhyChooseUs />
+      <Ourvalues />
       <section className="dark:bg-darkblack ">
         <div className="flex flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
-          <h1 className="main-title">Your Ultimate AI Solution</h1>
-          <p className="desc max-w-[40rem]">
+          <h1 className="main-title" data-aos="fade-up">
+            Your Ultimate AI Solution
+          </h1>
+          <p className="desc max-w-[40rem]" data-aos="fade-up">
             Lorem ipsum dolor sit amet consectetur. Bibendum nulla ut dui non.
             Eu arcu fringilla morbi vel mi libero mattis et platea. Sagittis ut
             mi pretium arcu faucibus penatibus.

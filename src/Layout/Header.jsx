@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
             <div className=" w-auto text-white">
-              <img src={logo} alt="logo" className="w-[7rem] h-[2.8rem]" />
+              <img src={logo} alt="logo" className="w-[5rem] h-[3rem]" />
             </div>
           </div>
 
@@ -46,7 +46,10 @@ const Header = () => {
               </Link>
             ))}
 
-            <button onClick={navigateTo} className="primary-btn">
+            <button
+              onClick={navigateTo}
+              className="primary-btn !bg-white !text-darkbackground dark:!text-white dark:!bg-primary"
+            >
               Contact Us
             </button>
             <button
@@ -95,7 +98,7 @@ const Header = () => {
             ))}
             <button
               onClick={navigateTo}
-              className="w-full text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
+              className="w-full text-center bg-primary  text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
             >
               Contact Us
             </button>

@@ -30,10 +30,13 @@ const AboutUsPage = () => {
           <div>
             <div className="wrapper paddingtop paddingbottom grid md:grid-cols-2 gap-10">
               <div>
-                <h1 className="text-8xl font-bold text-darkblack dark:text-white">
+                <h1
+                  data-aos="fade-right"
+                  className="text-8xl font-bold text-darkblack dark:text-white"
+                >
                   About Us
                 </h1>
-                <p className="desc mt-10">
+                <p data-aos="fade-right" className="desc mt-10">
                   Welcome to GodverseAI, where cosmic innovation converges with
                   quantum-level intelligence. In a reality where technology
                   evolves at light speed, we stand at the intersection of cosmic
@@ -43,7 +46,7 @@ const AboutUsPage = () => {
                   borders, dimensions, and industries.
                 </p>
               </div>
-              <img src={aboutusimg} alt="aboutus-img" />
+              <img data-aos="fade-left" src={aboutusimg} alt="aboutus-img" />
             </div>
           </div>
         </section>
@@ -60,7 +63,10 @@ const AboutUsPage = () => {
           <OurStory />
           <UnlockEfficiency />
           <div className="flex justify-center items-center flex-col paddingtop paddingbottom">
-            <div className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium">
+            <div
+              data-aos="fade-up"
+              className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium"
+            >
               Latest Insights
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 wrapper paddingtop  ">

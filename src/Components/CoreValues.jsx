@@ -6,10 +6,13 @@ const CoreValues = () => {
     <section>
       <div className="paddingtop paddingbottom wrapper flex gap-10 flex-col justify-center items-center">
         <RoundedHeader title="Why Choose Us" />
-        <h1 className="main-title">Our Core Values</h1>
+        <h1 data-aos="fade-up" className="main-title">
+          Our Core Values
+        </h1>
         <div className="grid md:grid-cols-2 gap-5 w-full">
           {coreValues.map((obj) => (
             <div
+              data-aos="fade-up"
               key={obj.id}
               className="w-full h-full p-5 border dark:border-primary rounded-xl"
             >

@@ -4,30 +4,41 @@ import { useTheme } from "../Context/ThemeContext";
 import ServicesGrid from "../Components/ServicesGrid";
 import HowWeWork from "../Components/HowWeWork";
 import Testimonials from "../Components/Testimonials";
-
+import servicebanner from "../assets/images/servicebanner.jpg";
 const ServicePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
   return (
     <div className=" bg-white dark:bg-darkblack">
-      <section className=" pt-[7rem]">
+      <section className="pt-[4rem]">
         <div
           className={`absolute ${
             isDarkMode ? `flex` : "hidden"
-          } -top-[28rem] blur-3xl left-0 w-full h-full bg-footerBackground  `}
+          } -top-[43rem] blur-3xl left-0 w-full z-20 h-full bg-footerBackground  `}
         />{" "}
-        <section className="relative flex flex-col items-center gap-10 wrapper paddingtop paddingbottom z-10 w-full h-full">
-          <RoundedHeader title={"Our Services"} />
-          <h1 className=" text-[56px] text-center leading-tight font-bold dark:text-white text-darkblack">
-            Simplify your Business
-            <br /> Growth with GodverseAI
-          </h1>
-          <p className="desc text-center max-w-[50rem]">
-            With GodverseAI's quantum-level innovation and AI-driven solutions,
-            designed to captivate audiences across galaxies. Partner with us to
-            manifest futuristic solutions that transcend borders and industries.
-          </p>
-          <ServicesGrid />
+        <section className="relative flex flex-col items-center gap-10 z-10 w-full h-full ">
+          <div
+            className="w-full min-h-[30rem] flex flex-col bg-cover bg-center justify-center items-center gap-10 paddingtop paddingbottom "
+            style={{ backgroundImage: `url(${servicebanner})` }}
+          >
+            <RoundedHeader title={"Our Services"} />
+            <h1
+              data-aos="fade-up"
+              className=" text-[56px] text-center leading-tight font-bold dark:text-white text-darkblack"
+            >
+              Simplify your Business
+              <br /> Growth with GodverseAI
+            </h1>
+            <p className="desc text-center max-w-[50rem]" data-aos="fade-up">
+              With GodverseAI's quantum-level innovation and AI-driven
+              solutions, designed to captivate audiences across galaxies.
+              Partner with us to manifest futuristic solutions that transcend
+              borders and industries.
+            </p>
+          </div>
+          <div className="wrapper">
+            <ServicesGrid />
+          </div>
         </section>
       </section>
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">

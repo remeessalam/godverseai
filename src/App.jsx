@@ -10,7 +10,13 @@ import BlogView from "./Pages/BlogView";
 import ServicePage from "./Pages/ServicePage";
 import ServiceDetails from "./Pages/ServiceDetails";
 import LandingPage from "./Pages/LandingPage";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({
+  once: true,
+  duration: 1000,
+  offset: -10,
+});
 const AppRouter = createBrowserRouter([
   {
     path: "/",

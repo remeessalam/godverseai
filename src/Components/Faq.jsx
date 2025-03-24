@@ -16,23 +16,24 @@ const Faq = () => {
         <div className="grid md:grid-cols-3 gap-10">
           <div className="flex flex-col gap-5">
             <RoundedHeader title={"FAQs"} bg={true} />
-            <h1 className="main-title leading-tight">
+            <h1 className="main-title leading-tight" data-aos="fade-right">
               Frequently Asked Questions
             </h1>
-            <p className="desc">
+            <p className="desc" data-aos="fade-right">
               In the digital age, your voice on social media is your brand's
               heartbeat.
             </p>
             <button
               onClick={() => navigateTo("/contact-us")}
               className="secondary-btn-white w-fit"
+              data-aos="fade-right"
             >
               Get Started
             </button>
           </div>
           <div className="col-span-2">
             {faqs.map((faq, index) => (
-              <div key={index} className="mb-4">
+              <div key={index} className="mb-4" data-aos="fade-left">
                 <button
                   className="w-full flex items-center border border-slate-600 justify-between bg-opacity-10 bg-white text-white p-4 rounded-lg focus:outline-none"
                   onClick={() =>

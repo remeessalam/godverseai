@@ -4,11 +4,14 @@ import { futureTechSectors } from "../util/constant";
 const Industries = () => {
   return (
     <div className="wrapper paddingtop paddingbottom">
-      <h2 className="main-title text-center mb-10">Future Tech Sectors</h2>
+      <h2 className="main-title text-center mb-10" data-aos="fade-up">
+        Where AI Expertise Meets Industry Excellence
+      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {futureTechSectors.map((sector) => (
           <div
+            data-aos="fade-up"
             key={sector.id}
             className="relative bg-white rounded-lg shadow-lg overflow-hidden group transition-all duration-300 hover:shadow-xl h-64"
           >

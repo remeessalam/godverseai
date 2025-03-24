@@ -12,7 +12,7 @@ const VisionMission = () => {
       <div className="wrapper paddingtop paddingbottom grid md:grid-cols-2 gap-[5rem]">
         <div className="flex flex-col gap-5">
           {visionAndMission.map((item, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-right">
               <h3 className="text-[32px] font-semibold dark:text-white text-darkblack">
                 {item.title}
               </h3>
@@ -21,6 +21,7 @@ const VisionMission = () => {
           ))}
           <div className="mt-10">
             <button
+              data-aos="fade-right"
               onClick={() => navigateTo("/contact-us")}
               className="primary-btn"
             >
@@ -30,10 +31,14 @@ const VisionMission = () => {
           </div>
         </div>
         <div
-          className="relative w-full h-full min-h-[30rem] rounded-xl bg-left bg-cover bg-no-repeat"
+          className="relative w-full h-full min-h-[30rem] rounded-xl bg-left bg-cover bg-no-repeat "
+          data-aos="fade-left"
           style={{ backgroundImage: `url(${visionmissionimg})` }}
         >
-          <div className="absolute md:max-w-[30rem] mx-4 md:mx-0 bottom-5 md:-left-5 gap-5 rounded-xl flex p-5 bg-gradient-to-r from-blue-600 to-primary">
+          <div
+            data-aos="fade-left"
+            className="absolute md:max-w-[30rem] mx-4 md:mx-0 bottom-5 md:-left-5 gap-5 rounded-xl flex p-5 bg-gradient-to-r from-blue-600 to-primary"
+          >
             <img
               src={userimg}
               alt="user-image"

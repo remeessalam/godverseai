@@ -33,10 +33,37 @@ import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
 import { MdOutlineDashboardCustomize } from "react-icons/md";
-import { FaAppStoreIos } from "react-icons/fa";
+import {
+  FaAppStoreIos,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import { SiFlutter } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
+import { FaXTwitter } from "react-icons/fa6";
+
+export const companyDetails = {
+  email: "godverseai@gmail.com",
+  socialLinks: [
+    {
+      href: "https://www.linkedin.com/company/godverseai-technologies/",
+      icon: FaLinkedin,
+    },
+    {
+      href: "https://www.instagram.com/godverse_ai?igsh=MTVoMzVlbnZ4YWZ2&utm_source=qr",
+      icon: FaInstagram,
+    },
+    { href: "https://x.com/godverse_ai?s=11", icon: FaXTwitter },
+    {
+      href: "https://youtube.com/@godverseai-l8v?si=s9hOyVkq8mg2p1O7",
+      icon: FaYoutube,
+    },
+  ],
+  whatsapp:
+    "https://api.whatsapp.com/send/?phone=916360503451&text&type=phone_number&app_absent=0",
+};
 
 export const services = [
   {

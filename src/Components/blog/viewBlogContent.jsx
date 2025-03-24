@@ -4,10 +4,13 @@ function ViewBlogContent() {
   return (
     <div className="">
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold dark:text-white my-4">
+        <h2
+          className="text-2xl font-semibold dark:text-white my-4"
+          data-aos="fade-up"
+        >
           Overview
         </h2>
-        <p className="text-black dark:text-gray-400 ">
+        <p className="text-black dark:text-gray-400 " data-aos="fade-up">
           Artificial Intelligence (AI) is no longer a futuristic concept—it's a
           necessity for enterprises aiming to stay ahead. In this blog, we
           explore how businesses can harness AI-driven insights, predictive
@@ -17,10 +20,16 @@ function ViewBlogContent() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold dark:text-white mb-4">
+        <h2
+          className="text-2xl font-semibold dark:text-white mb-4"
+          data-aos="fade-up"
+        >
           Key Topics Covered
         </h2>
-        <ul className="list-disc list-inside text-black dark:text-gray-400">
+        <ul
+          data-aos="fade-up"
+          className="list-disc list-inside text-black dark:text-gray-400"
+        >
           <li>
             The Role of AI in Business Transformation - How AI enhances
             decision-making, automates repetitive tasks, and boosts efficiency.
@@ -46,7 +55,10 @@ function ViewBlogContent() {
       </section>
 
       <section className="mb-8">
-        <blockquote className=" pl-4 italic text-black dark:text-gray-400">
+        <blockquote
+          data-aos="fade-up"
+          className=" pl-4 italic text-black dark:text-gray-400"
+        >
           <p>
             "AI-driven data strategies are revolutionizing enterprise
             decision-making, enabling businesses to unlock deep insights,
@@ -60,10 +72,13 @@ function ViewBlogContent() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4 dark: text-gray-400">
+        <h2
+          data-aos="fade-up"
+          className="text-2xl font-semibold mb-4 dark: text-gray-400"
+        >
           Why Read This?
         </h2>
-        <p className="text-black dark:text-gray-400">
+        <p data-aos="fade-up" className="text-black dark:text-gray-400">
           If you're a business leader or strategist looking to integrate AI
           solutions, this blog will offer actionable insights to help you make
           informed decisions.

@@ -42,7 +42,9 @@ function BlogView() {
       <div className="wrapper paddingtop">
         <div className="flex justify-center items-center flex-col">
           <RoundedHeader title={"Recent Posts"} />
-          <h1 className="main-title my-3">Related Posts</h1>
+          <h1 data-aos="fade-up" className="main-title my-3">
+            Related Posts
+          </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5 dark:bg-darkblack">
             {randomPosts.map((post, index) => (
               <BlogBody key={index} {...post} passkey={true} />

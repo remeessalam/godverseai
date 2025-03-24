@@ -3,6 +3,7 @@ import React from "react";
 const RoundedHeader = ({ title, bg }) => {
   return (
     <div
+      data-aos="fade-up"
       className={`border  w-fit border-slate-500 rounded-full px-4 py-2 ${
         bg
           ? `bg-transparent dark:text-white text-black`

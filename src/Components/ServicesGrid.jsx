@@ -20,7 +20,10 @@ const ServicesGrid = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="relative aspect-square h-full dark:hover:bg-primary hover:bg-primary group dark:bg-darkblack overflow-hidden rounded-xl border border-slate-700"
+                data-aos="fade-up"
+                className={`relative aspect-square shadow-2xl ${
+                  isDarkMode ? `hovershadowwhite` : `hover:shadow-black`
+                } duration-500 transition-all transform hover:-translate-x-8 h-full dark:hover:bg-primary hover:bg-primary group dark:bg-darkblack overflow-hidden rounded-xl border border-slate-700`}
                 onMouseEnter={() => setHover(index)}
                 onMouseLeave={() => setHover("")}
                 onClick={() => navigateTo(service.link)}

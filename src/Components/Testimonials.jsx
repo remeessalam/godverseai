@@ -8,7 +8,7 @@ const Testimonials = () => {
     <section className="">
       <div className="paddingtop paddingbottom wrapper flex flex-col items-center gap-5">
         <RoundedHeader title={"Testimonial"} />
-        <h1 className="main-title text-center leading-tight">
+        <h1 className="main-title text-center leading-tight" data-aos="fade-up">
           Professionals use to <br />
           10x their Productivity
         </h1>
@@ -17,6 +17,7 @@ const Testimonials = () => {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
+                data-aos="fade-up"
                 className={`bg-white/10 hovershadow border-primary border rounded-lg p-6 flex flex-col justify-between
                      ${index === 0 && "md:col-span-1"}  ${
                   index === 1 && "md:col-span-2"
