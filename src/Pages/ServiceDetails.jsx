@@ -105,7 +105,9 @@ const ServiceDetails = () => {
                       {serviceDetail.fourthDescripiton}
                     </p>
                   </div>
-                  <button className="primary-btn w-fit">Join Us Today</button>
+                  <button className="primary-btn w-fit mt-3">
+                    Join Us Today
+                  </button>
                 </div>
               </div>
             </section>

@@ -300,7 +300,8 @@ export const serviceDetails = [
       "Artificial Intelligence is transforming industries, redefining possibilities, and shaping the future of technology. From intelligent automation to predictive analytics and personalized user experiences, AI-driven solutions empower businesses to enhance efficiency, optimize decision-making, and unlock new opportunities. Whether in healthcare, finance, customer service, or beyond, AI innovation is revolutionizing workflows, driving growth, and creating smarter, data-driven ecosystems. Embrace the power of AI to stay ahead of the curve, streamline operations, and build a future where intelligent systems seamlessly integrate with human potential for limitless innovation.",
     whyMatter:
       "Why It Matters Across Dimensions: AI insights empower you to adapt instantly to market shifts, planetary changes, and customer behaviors at universal scale.",
-    fourthHeading: "Accelerating Innovation Through AR & VR Development",
+    fourthHeading:
+      "Accelerating Innovation Through Artificial Intelligence Solutions",
     fourthDescripiton: `Harness the power of Artificial Intelligence to drive transformation and unlock new possibilities for your business. AI-powered solutions are revolutionizing industries by enhancing automation, optimizing decision-making, and delivering intelligent, data-driven insights. From machine learning and predictive analytics to conversational AI and process automation, our cutting-edge AI solutions enable businesses to boost efficiency, improve customer experiences, and scale operations seamlessly. Stay ahead in the digital era by integrating AI into your workflows, accelerating innovation, and shaping a smarter, more connected future.`,
   },
   {
