@@ -94,6 +94,7 @@ const Header = () => {
                 <Link
                   key={index}
                   to={path}
+                  onClick={toggleMenu}
                   className={`block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 ${
                     isActive(path) ? "bg-gray-100 dark:bg-gray-800" : ""
                   }`}

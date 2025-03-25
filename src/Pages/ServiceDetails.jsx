@@ -28,10 +28,10 @@ const ServiceDetails = () => {
     <div className="dark:bg-darkblack">
       <div className="pt-[4.5rem]">
         <section
-          className="flex justify-start p-10 items-end h-[30rem] bg-current bg-cover md:bg-cover bg-no-repeat bg-center"
+          className="flex justify-start bg-darkblack p-10 items-end h-[15rem] sm:h-[30rem] bg-current bg-cover sm:bg-cover bg-no-repeat bg-center"
           style={{ backgroundImage: `url(${serviceDetail.bannerimg})` }}
         >
-          <h1 className="text-[48px] font-bold text-white">
+          <h1 className="text-[34px] sm:text-[48px] font-bold text-white">
             {serviceDetail.title}
           </h1>
         </section>
