@@ -66,6 +66,7 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
+  name: "GodversAi",
   email: "godverseai@gmail.com",
   phone: "+91-6360503451",
   address:

@@ -27,7 +27,7 @@ const ContactUsPage = () => {
 
     var payload = {
       to: companyDetails.email,
-      name: companyDetails.name,
+      name: companyDetails?.name || "GodversAi",
       subject: values.subject,
       body: emailBody,
     };
@@ -154,7 +154,7 @@ const ContactUsPage = () => {
 
             <button
               type="submit"
-              data-aos="fade-up"
+              // data-aos="fade-up"
               className={`w-full ${
                 spinner && `opacity-25 cursor-not-allowed`
               } bg-primary hover:bg-sky-800 text-white py-3 rounded transition-colors`}
