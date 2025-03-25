@@ -7,7 +7,7 @@ const animation = { duration: 60000, easing: (t) => t };
 
 const Portfolio = ({ page }) => {
   const isWeb = page === "web-development";
-  const isApp = page === "app-development";
+  //   const isApp = page === "app-development";
 
   const displayedWebPortfolio = isWeb || !page ? webPortfolio : [];
   const displayedAppPortfolio = !isWeb || !page ? appPortfolio : [];

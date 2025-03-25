@@ -34,6 +34,7 @@ import Game_DevelopmentSub2 from "../assets/images/services/Game_DevelopmentSub2
 import IoT_Development from "../assets/images/services/IoT_Development.jpeg";
 import IoT_DevelopmentSub1 from "../assets/images/services/IoT_DevelopmentSub1.jpeg";
 import IoT_DevelopmentSub2 from "../assets/images/services/IoT_DevelopmentSub2.jpeg";
+
 export const serviceDetails = [
   {
     id: 1,

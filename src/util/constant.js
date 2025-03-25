@@ -90,84 +90,95 @@ export const services = [
   {
     title: "Mobile App Development",
     link: "mobile-app-development",
-    description: "Crafting User-Centric Solutions",
+    description:
+      "We build secure, high-performance iOS and Android apps with user-friendly designs.",
     icon: Smartphone,
     bgColor: "bg-blue-500",
   },
   {
     title: "UX/UI Design",
     link: "ux-ui-design",
-    description: "Crafting User-Centric Solutions",
+    description:
+      "Crafting intuitive interfaces that ensure accessibility and seamless user experiences.",
     icon: Users,
     bgColor: "bg-gray-900",
   },
   {
     title: "AR & VR Development",
     link: "ar-vr-development",
-    description: "Crafting User-Centric Solutions",
+    description:
+      "Create immersive experiences for training, visualization, and entertainment.",
     icon: Box,
     bgColor: "bg-gray-900",
   },
   {
     title: "Full Stack Web Development",
     link: "full-stack-web-development",
-    description: "Full Stack Web Development",
+    description:
+      "Develop responsive websites and scalable web applications with secure architectures.",
     icon: Code,
     bgColor: "bg-gray-900",
   },
   {
     title: "AI Calling Agency",
     link: "ai-calling-agency",
-    description: "Revolutionizing Business Communication",
+    description:
+      "Automate customer interactions with intelligent voice agents for 24/7 support.",
     icon: Cpu,
     bgColor: "bg-gray-900",
   },
   {
     title: "Chatbot Development",
     link: "chatbot-development",
-    description: "Smarter, Faster Customer Interaction",
+    description:
+      "Enhance customer support with AI-driven chatbots across multiple platforms.",
     icon: Bot,
     bgColor: "bg-gray-900",
   },
   {
     title: "Artificial Intelligence Solutions",
     link: "artificial-intelligence-solutions",
-    description: "Unlocking New Possibilities",
+    description:
+      "Implement AI-powered systems to automate processes and gain insights.",
     icon: MemoryStick,
     bgColor: "bg-gray-900",
   },
   {
     title: "Robot Process Automation",
     link: "robot-process-automation",
-    description: "Turning Data into Strategic Insights",
+    description: "Automate repetitive tasks to boost efficiency and accuracy.",
     icon: Bot,
     bgColor: "bg-gray-900",
   },
   {
     title: "Data Science & Analytics",
     link: "data-science-analytics",
-    description: "Making Smarter Decisions",
+    description:
+      "Transform data into actionable insights using advanced analytics.",
     icon: Database,
     bgColor: "bg-gray-900",
   },
   {
     title: "Blockchain Development",
     link: "blockchain-development",
-    description: "Secure and Transparent Solutions",
+    description:
+      "Build secure, decentralized applications with smart contracts.",
     icon: Cloud,
     bgColor: "bg-gray-900",
   },
   {
     title: "Game Development",
     link: "game-development",
-    description: "Engaging Players with Cutting-Edge Technology",
+    description:
+      "Create engaging games across mobile, console, and VR platforms.",
     icon: Gamepad2,
     bgColor: "bg-gray-900",
   },
   {
     title: "IoT Development",
     link: "iot-development",
-    description: "Connecting the Digital World",
+    description:
+      "Develop smart connected systems for real-time monitoring and automation.",
     icon: Network,
     bgColor: "bg-gray-900",
   },

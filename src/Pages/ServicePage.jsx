@@ -29,7 +29,7 @@ const ServicePage = () => {
               Simplify your Business
               <br /> Growth with GodverseAI
             </h1>
-            <p className="desc text-center max-w-[50rem]" data-aos="fade-up">
+            <p className="desc text-center max-w-[50rem] " data-aos="fade-up">
               With GodverseAI's quantum-level innovation and AI-driven
               solutions, designed to captivate audiences across galaxies.
               Partner with us to manifest futuristic solutions that transcend

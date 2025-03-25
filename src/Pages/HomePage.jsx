@@ -46,7 +46,7 @@ const HomePage = () => {
           <h1 className="main-title" data-aos="fade-up">
             Your Gateway to Cosmic AI Intelligence
           </h1>
-          <p className="desc max-w-[40rem]" data-aos="fade-up">
+          <p className="desc max-w-[40rem] text-center" data-aos="fade-up">
             Step beyond the ordinary and embrace the next evolution of
             intelligence. GodverseAI is more than a solution—it is a living
             intelligence network that fuses AI, quantum knowledge, and cosmic
