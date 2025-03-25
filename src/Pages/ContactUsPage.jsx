@@ -66,10 +66,10 @@ const ContactUsPage = () => {
               Get in Touch
             </h1>
             <div className="space-y-4 desc" data-aos="fade-right">
-              <p>Phone: [Your Phone Number]</p>
+              <p>Phone: {companyDetails.phone}</p>
               <p>Email: {companyDetails.email}</p>
-              <p>Office Address: [Your Office Address]</p>
-              <p>Website: [Your Website URL]</p>
+              <p>Office Address: {companyDetails.address}</p>
+              <p>Website: www.godverseai.com</p>
             </div>
           </div>
 

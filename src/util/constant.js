@@ -67,6 +67,9 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
   email: "godverseai@gmail.com",
+  phone: "+91-6360503451",
+  address:
+    "Salarpuria Symbiosis, Ground floor Bannerghatta Road Arekere Village, Begur Hobli, Bengaluru, Karnataka 560076",
   socialLinks: [
     {
       href: "https://www.linkedin.com/company/godverseai-technologies/",
