@@ -24,12 +24,15 @@ const ServicePage = () => {
             <RoundedHeader title={"Our Services"} />
             <h1
               data-aos="fade-up"
-              className=" text-[56px] text-center leading-tight font-bold dark:text-white text-darkblack"
+              className=" text-[56px] text-center leading-tight font-bold dark:text-white text-white"
             >
               Simplify your Business
               <br /> Growth with GodverseAI
             </h1>
-            <p className="desc text-center max-w-[50rem] " data-aos="fade-up">
+            <p
+              className="desc text-center max-w-[50rem] !text-white"
+              data-aos="fade-up"
+            >
               With GodverseAI's quantum-level innovation and AI-driven
               solutions, designed to captivate audiences across galaxies.
               Partner with us to manifest futuristic solutions that transcend
