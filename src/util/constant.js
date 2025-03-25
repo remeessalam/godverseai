@@ -49,6 +49,10 @@ import MybitsShopImg from "../assets/app-development-portfolio/mybitsshop.png";
 import NamazImg from "../assets/app-development-portfolio/namaz.png";
 import PoteaImg from "../assets/app-development-portfolio/potea.png";
 import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
+//portfolio
+import nanoflow from "../assets/portfolio/nanoflow.png";
+import padipal from "../assets/portfolio/padipal.png";
+import cryptopadie from "../assets/portfolio/cryptopadie.png";
 
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
@@ -628,5 +632,26 @@ export const appPortfolio = [
     img: RentopBikeAndCarImg,
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+  },
+];
+
+export const blockchainPortfolio = [
+  {
+    id: 1,
+    img: nanoflow,
+    title: "Nanoflow",
+    link: "https://play.google.com/store/apps/details?id=com.nanfolo.user.app",
+  },
+  {
+    id: 2,
+    img: padipal,
+    title: "Padipal",
+    link: "https://padiepal.com",
+  },
+  {
+    id: 3,
+    img: cryptopadie,
+    title: "Cryptopadie",
+    link: "https://cryptopadie.com/",
   },
 ];

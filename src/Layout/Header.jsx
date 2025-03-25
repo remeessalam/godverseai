@@ -32,19 +32,21 @@ const Header = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            {["/", "/about-us", "/services", "/blog"].map((path, index) => (
-              <Link
-                key={index}
-                to={path}
-                className={`text-white hover:text-blue-300 dark:hover:text-primary ${
-                  isActive(path) ? "text-blue-300 dark:text-primary" : ""
-                }`}
-              >
-                {path === "/"
-                  ? "Home"
-                  : path.replace("/", "").replace("-", " ")}
-              </Link>
-            ))}
+            {["/", "/about-us", "/services", "/portfolio", "/blog"].map(
+              (path, index) => (
+                <Link
+                  key={index}
+                  to={path}
+                  className={`text-white hover:text-blue-300 dark:hover:text-primary ${
+                    isActive(path) ? "text-blue-300 dark:text-primary" : ""
+                  }`}
+                >
+                  {path === "/"
+                    ? "Home"
+                    : path.replace("/", "").replace("-", " ")}
+                </Link>
+              )
+            )}
 
             <button
               onClick={navigateTo}
