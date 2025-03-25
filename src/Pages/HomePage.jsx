@@ -10,6 +10,7 @@ import Faq from "../Components/Faq";
 import { useTheme } from "../Context/ThemeContext";
 import Industries from "../Components/Industries";
 import Ourvalues from "../Components/Ourvalues";
+import Portfolio from "../Components/Portfolio";
 const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -43,17 +44,19 @@ const HomePage = () => {
         <div className="flex flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
           <h1 className="main-title" data-aos="fade-up">
-            Your Ultimate AI Solution
+            Your Gateway to Cosmic AI Intelligence
           </h1>
           <p className="desc max-w-[40rem]" data-aos="fade-up">
-            Lorem ipsum dolor sit amet consectetur. Bibendum nulla ut dui non.
-            Eu arcu fringilla morbi vel mi libero mattis et platea. Sagittis ut
-            mi pretium arcu faucibus penatibus.
+            Step beyond the ordinary and embrace the next evolution of
+            intelligence. GodverseAI is more than a solution—it is a living
+            intelligence network that fuses AI, quantum knowledge, and cosmic
+            consciousness.
           </p>
         </div>
       </section>
       <ServicesGrid />
       <Industries />
+      <Portfolio />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
         <div
           className={`absolute ${

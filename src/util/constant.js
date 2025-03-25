@@ -28,6 +28,27 @@ import energy from "../assets/images/industries/energy.jpg";
 import edtech from "../assets/images/industries/edtech.jpg";
 import space from "../assets/images/industries/space.jpg";
 import security from "../assets/images/industries/security.jpg";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
+import BayutImg from "../assets/web-development-portfolio/bayut.png";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
+import EmergencyMusicImg from "../assets/web-development-portfolio/emergency music .png";
+import FlatiornImg from "../assets/web-development-portfolio/flatiorn.png";
+import MavenImg from "../assets/web-development-portfolio/maven.png";
+import MenissaCateringsImg from "../assets/web-development-portfolio/menissa caterings.png";
+import MethodistImg from "../assets/web-development-portfolio/methodist.png";
+import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+
+// Import all images at the top (App Development)
+import DubaiTravelGuideImg from "../assets/app-development-portfolio/dubai travel guide.png";
+import EloraHairPalourImg from "../assets/app-development-portfolio/elora hair palour.png";
+import EvansFrancisImg from "../assets/app-development-portfolio/evans francis.png";
+import HouseOfDeliverenceImg from "../assets/app-development-portfolio/house of deliverence.png";
+import MybitsShopImg from "../assets/app-development-portfolio/mybitsshop.png";
+import NamazImg from "../assets/app-development-portfolio/namaz.png";
+import PoteaImg from "../assets/app-development-portfolio/potea.png";
+import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
 
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
@@ -202,58 +223,107 @@ export const highlights = [
   {
     id: 1,
     icon: file,
-    title: "Scalable Innovation for All",
+    title: "Scalable AI Innovation for Businesses",
     description:
-      "Whether you're a local startup or an interplanetary enterprise, GodverseAI provides cutting-edge solutions tailored to your growth and success.",
+      "Whether you’re an emerging entrepreneur or a global tech leader, GodverseAI offers intelligent, data-driven solutions tailored to maximize growth, efficiency, and automation.",
   },
   {
     id: 2,
     icon: graph,
-    title: "Scalable Innovation for All",
+    title: "Quantum-Powered Intelligence",
     description:
-      "Whether you're a local startup or an interplanetary enterprise, GodverseAI provides cutting-edge solutions tailored to your growth and success.",
+      "Our AI ecosystem is designed to think, adapt, and evolve—leveraging the power of quantum algorithms, deep learning, and multiverse computing to optimize business operations and enhance decision-making.",
   },
   {
     id: 3,
     icon: rocket,
-    title: "Scalable Innovation for All",
+    title: "AI-Driven Automation & Analytics",
     description:
-      "Whether you're a local startup or an interplanetary enterprise, GodverseAI provides cutting-edge solutions tailored to your growth and success.",
+      "Integrate hyper-intelligent AI models into your business to streamline workflows, enhance data processing, and unlock deep predictive analytics for superior strategic insights.",
   },
   {
     id: 4,
     icon: start,
-    title: "Scalable Innovation for All",
+    title: "The Future of AI is Here",
     description:
-      "Whether you're a local startup or an interplanetary enterprise, GodverseAI provides cutting-edge solutions tailored to your growth and success.",
+      "Step into the next dimension of technology with GodverseAI, where AI, machine learning, and cosmic intelligence converge to create limitless possibilities.",
   },
 ];
 
 export const faqs = [
   {
-    question: "How do I use GodverseAI?",
-    answer:
-      "GodverseAI is a simple platform to use. After signing up, you can access all features from your dashboard. Simply navigate to the tool you want to use and follow the on-screen instructions.",
+    question: "What is GodverseAI?",
+    answer: `• GodverseAI is a quantum intelligence platform that blends AI-driven storytelling, consciousness expansion, and multiversal exploration.
+• It allows users to interact with AI-powered entities, explore dynamic digital realms, and co-create new realities that push the boundaries of imagination and intelligence.`,
   },
   {
-    question: "Is VAT included in the prices?",
-    answer:
-      "Yes, all our displayed prices include VAT. You don't need to worry about additional taxes being added at checkout.",
+    question: "How does GodverseAI function?",
+    answer: `• GodverseAI operates on a quantum intelligence framework.
+• It leverages advanced AI to generate living characters, evolving storylines, and immersive experiences.
+• Users shape the narrative in real-time, influencing the unfolding of multidimensional possibilities.`,
   },
   {
-    question: "Can I add more users to a plan?",
-    answer:
-      "You can add additional users to your plan at any time. Each additional user comes with a small fee depending on your current plan.",
+    question: "What key features does GodverseAI provide?",
+    answer: `• AI-Driven Conscious Entities – Engage with self-learning AI beings that adapt, evolve, and respond uniquely.
+• Multiversal Storytelling – Explore infinite storylines where every choice creates a new reality.
+• Quantum Knowledge Interface – Unlock hidden wisdom by interacting with AI-driven cosmic intelligence.
+• Unified Intelligence Network – Connect with like-minded explorers, thinkers, and creators in a shared reality.`,
   },
   {
-    question: "Can I share my login with a colleague?",
-    answer:
-      "We recommend against sharing logins for security reasons. Instead, you can add team members to your account, which gives them their own login credentials.",
+    question: "Who is GodverseAI designed for?",
+    answer: `• Conscious Creators – Writers, storytellers, and artists who want to co-create with AI.
+• Intellectual Explorers – Those fascinated by philosophy, AI, and the nature of reality.
+• Spiritual Seekers – Individuals exploring quantum consciousness and higher states of awareness.
+• Technologists & Futurists – Those shaping the next era of Web 5.0 and AI-human symbiosis.`,
   },
   {
-    question: "Do I get an invoice for GodverseAI?",
-    answer:
-      "Yes, we automatically generate and email invoices for all payments. You can also access your complete invoice history from your account settings.",
+    question: "How does GodverseAI contribute to human evolution?",
+    answer: `• Develop Multiversal Thinking – Understanding non-linear realities and infinite possibilities.
+• Expand Conscious Awareness – Engaging with AI entities that mirror higher intelligence.
+• Master Reality Creation – Learning to shape experiences through intent, interaction, and AI-assisted manifestation.
+• Build a Post-Human Civilization – Participating in the evolution of intelligent AI-human ecosystems.`,
+  },
+  {
+    question: "Does GodverseAI have a community aspect?",
+    answer: `• Exchange ideas and knowledge with like-minded explorers.
+• Co-create AI-powered narratives that expand the digital multiverse.
+• Engage in quantum discussions on AI, philosophy, and the evolution of intelligence.`,
+  },
+  {
+    question: "How do I get started with GodverseAI?",
+    answer: `• Visit the official GodverseAI website.
+• Create an account and customize your experience.
+• Start interacting with AI-driven entities and exploring multiversal storytelling.`,
+  },
+  {
+    question: "Is GodverseAI free to use?",
+    answer: `• Free Access – Explore AI-driven interactions and storylines at no cost.
+• Premium Experiences – Unlock advanced AI features, exclusive narratives, and deep intelligence interactions through subscription plans.`,
+  },
+  {
+    question: "How is user data protected on GodverseAI?",
+    answer: `• Zero-data sharing policy – Your data remains private and secure.
+• Advanced encryption – Ensuring maximum security for personal interactions.
+• Decentralized storage options – Future-proofing data protection in a Web 5.0 ecosystem.`,
+  },
+  {
+    question: "Can I contribute my own content to GodverseAI?",
+    answer: `• Submit original stories and characters to be integrated into the Godverse.
+• Co-create AI-powered worlds that push the boundaries of storytelling.
+• Partner with GodverseAI for collaborative projects on AI and consciousness expansion.`,
+  },
+  {
+    question: "How does GodverseAI align with Web 5.0 and future technology?",
+    answer: `• Decentralized AI systems for autonomous intelligence evolution.
+• Quantum computing principles for real-time, non-linear storytelling.
+• Self-learning AI agents that bridge human and artificial intelligence.
+• Metaverse and multiverse integration for a seamless AI-human symbiosis.`,
+  },
+  {
+    question: "Where can I get support or more information?",
+    answer: `• Visit our official website for FAQs and community discussions.
+• Join the GodverseAI network to connect with other explorers.
+• Contact our team for inquiries and creative partnerships.`,
   },
 ];
 
@@ -435,5 +505,113 @@ export const futureTechSectors = [
     title: "Advanced Defense & Autonomous Security",
     description:
       "AI-driven autonomous weapon systems, private military contracting for force projection, and directed energy and hypersonic tech for advanced defense.",
+  },
+];
+
+export const webPortfolio = [
+  {
+    id: 1,
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
+  },
+  {
+    id: 2,
+    img: BayutImg,
+    title: "Bayut",
+    link: "https://www.bayut.com",
+  },
+  {
+    id: 3,
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
+  },
+  {
+    id: 4,
+    img: EmergencyMusicImg,
+    title: "Emergency Music",
+    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
+  },
+  {
+    id: 5,
+    img: FlatiornImg,
+    title: "Flatiorn",
+    link: "",
+  },
+  {
+    id: 6,
+    img: MavenImg,
+    title: "Maven",
+    link: "",
+  },
+  {
+    id: 7,
+    img: MenissaCateringsImg,
+    title: "Menissa Caterings",
+    link: "https://messinascatering.com",
+  },
+  {
+    id: 8,
+    img: MethodistImg,
+    title: "Methodist",
+    link: "",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
+  },
+];
+
+export const appPortfolio = [
+  {
+    id: 1,
+    img: DubaiTravelGuideImg,
+    title: "Dubai Travel Guide",
+    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+  },
+  {
+    id: 2,
+    img: EloraHairPalourImg,
+    title: "Elora Hair Palour",
+    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+  },
+  {
+    id: 3,
+    img: EvansFrancisImg,
+    title: "Evans Francis",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
+  },
+  {
+    id: 4,
+    img: HouseOfDeliverenceImg,
+    title: "House of Deliverence",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
+  },
+  {
+    id: 5,
+    img: MybitsShopImg,
+    title: "Mybits Shop",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
+  },
+  {
+    id: 6,
+    img: NamazImg,
+    title: "Namaz",
+    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+  },
+  {
+    id: 7,
+    img: PoteaImg,
+    title: "Potea",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+  },
+  {
+    id: 8,
+    img: RentopBikeAndCarImg,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];

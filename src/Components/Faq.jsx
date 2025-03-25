@@ -10,6 +10,21 @@ const Faq = () => {
   const navigateTo = (link) => {
     navigate(link);
   };
+
+  const renderAnswer = (answer) => {
+    const points = answer.split("•").filter((point) => point.trim() !== "");
+    if (points.length > 1) {
+      return (
+        <ul className="list-disc pl-5">
+          {points.map((point, index) => (
+            <li key={index}>{point.trim()}</li>
+          ))}
+        </ul>
+      );
+    }
+    return <p>{answer}</p>;
+  };
+
   return (
     <section>
       <div className="wrapper paddingtop paddingbottom">
@@ -20,8 +35,9 @@ const Faq = () => {
               Frequently Asked Questions
             </h1>
             <p className="desc" data-aos="fade-right">
-              In the digital age, your voice on social media is your brand's
-              heartbeat.
+              Welcome to the GodverseAI FAQ section, where we explore how this
+              platform is shaping the future of human evolution through AI,
+              immersive storytelling, and cosmic intelligence.
             </p>
             <button
               onClick={() => navigateTo("/contact-us")}
@@ -47,7 +63,7 @@ const Faq = () => {
                 </button>
                 {isOpen === index && (
                   <div className="p-4 dark:text-white text-darkblack bg-opacity-5 bg-darkblack dark:bg-white/30 rounded-b-lg mt-1">
-                    <p>{faq.answer}</p>
+                    {renderAnswer(faq.answer)}
                   </div>
                 )}
               </div>

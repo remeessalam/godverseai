@@ -15,13 +15,14 @@ const Highlights = () => {
           <div className="flex flex-col gap-5">
             <RoundedHeader title={"Highlights"} bg={true} />
             <h1 className="main-title leading-tight" data-aos="fade-right">
-              Join the Cosmic Journey - Ready to Elevate your Business
+              Revolutionizing AI with Quantum Intelligence
             </h1>
             <p className="desc" data-aos="fade-right">
               From local startups to interplanetary enterprises, GodverseAI is
-              your gateway to quantum-level innovation. We believe in
-              co-creation—partner with us to manifest futuristic solutions that
-              captivate audiences across galaxies.
+              your ultimate gateway to advanced AI solutions. We merge
+              artificial intelligence, quantum computing, and cosmic
+              consciousness to drive unparalleled business growth and digital
+              evolution.
             </p>
             <button
               data-aos="fade-right"
