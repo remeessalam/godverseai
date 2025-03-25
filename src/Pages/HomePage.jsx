@@ -15,7 +15,7 @@ const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <HomePageBanner />
       <section>
         <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
@@ -41,9 +41,9 @@ const HomePage = () => {
       <WhyChooseUs />
       <Ourvalues />
       <section className="dark:bg-darkblack ">
-        <div className="flex flex-col gap-4 items-center w-full paddingtop paddingbottom">
+        <div className="flex wrapper flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
-          <h1 className="main-title" data-aos="fade-up">
+          <h1 className="main-title text-center" data-aos="fade-up">
             Your Gateway to Cosmic AI Intelligence
           </h1>
           <p className="desc max-w-[40rem] text-center" data-aos="fade-up">
