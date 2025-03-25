@@ -16,6 +16,17 @@ const HomePageBanner = () => {
   const [headingComplete, setHeadingComplete] = useState(false);
   const [cursorVisible, setCursorVisible] = useState(true);
   const [cursorPosition, setCursorPosition] = useState("heading");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   useEffect(() => {
     // Type out the heading text
@@ -55,7 +66,7 @@ const HomePageBanner = () => {
   }, [displayHeading, displayParagraph, headingComplete]);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-[#070c19]">
       <ReactPlayer
         url={bannervideo}
         loop={true}
@@ -68,11 +79,9 @@ const HomePageBanner = () => {
         config={{
           file: {
             attributes: {
-              style: {
-                objectFit: "cover",
-                width: "100vw",
-                height: "100vh",
-              },
+              style: !isMobile
+                ? { objectFit: "contain", width: "100vw", height: "100vh" }
+                : { width: "100vw", height: "100vh", objectFit: "cover" },
             },
           },
         }}
