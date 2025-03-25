@@ -23,11 +23,15 @@ const Header = () => {
 
   return (
     <nav className="fixed w-full top-0 !z-50 bg-primary dark:bg-darkblack shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="wrapper">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
             <div className=" w-auto text-white">
-              <img src={logo} alt="logo" className="w-[5rem] h-[3rem]" />
+              <img
+                src={logo}
+                alt="logo"
+                className="sm:w-[7.5rem] sm:h-[3.5rem] w-[6.5rem] "
+              />
             </div>
           </div>
 

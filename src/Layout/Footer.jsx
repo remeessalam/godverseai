@@ -19,7 +19,11 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">
             <div className="col-span-1">
               <div className="flex items-center gap-2 mb-4">
-                <img src={logo} alt="logo" className="w-[5rem] h-[3rem]" />
+                <img
+                  src={logo}
+                  alt="logo"
+                  className="sm:w-[7.5rem] sm:h-[3.5rem] w-[6.5rem] "
+                />
               </div>
               <p className="text-white text-sm max-w-xs">
                 Unleash the Next Wave of Business Evolution with GodverseAI

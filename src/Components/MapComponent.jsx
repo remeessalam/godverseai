@@ -12,7 +12,7 @@ L.Icon.Default.mergeOptions({
     "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
 });
 const MapComponent = () => {
-  const position = [49.8561, 2.376];
+  const position = [12.888768, 77.597447];
 
   return (
     <div
@@ -30,9 +30,10 @@ const MapComponent = () => {
         />
         <Marker position={position}>
           <Popup>
-            49°51'22.0"N 2°22'33.5"E
+            12.888768" 77.597447"
             <br />
-            Saint-Leu, France
+            Salarpuria Symbiosis, Ground Floor, Bannerghatta Road, Arekere
+            Village, Begur Hobli, Bengaluru, Karnataka 560076
           </Popup>
         </Marker>
       </MapContainer>
