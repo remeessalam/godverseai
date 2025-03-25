@@ -11,6 +11,7 @@ import OurStory from "../Components/OurStory";
 import UnlockEfficiency from "../Components/UnlockEfficiency";
 import Faq from "../Components/Faq";
 import LeadForm from "../Components/landingpage/LeadForm";
+import Portfolio from "../Components/Portfolio";
 
 const LandingPage = ({ page }) => {
   const { theme } = useTheme();
@@ -48,6 +49,7 @@ const LandingPage = ({ page }) => {
               isDarkMode ? `flex` : "hidden"
             } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
           />
+          <Portfolio page={page} />
           <section className="relative z-10 w-full h-full">
             <CoreValues />
             <VisionMission />
