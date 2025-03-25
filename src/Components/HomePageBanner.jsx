@@ -66,7 +66,7 @@ const HomePageBanner = () => {
   }, [displayHeading, displayParagraph, headingComplete]);
 
   return (
-    <div className="relative w-full bg-[#070c19]">
+    <div className="relative w-full">
       <ReactPlayer
         url={bannervideo}
         loop={true}
@@ -79,9 +79,11 @@ const HomePageBanner = () => {
         config={{
           file: {
             attributes: {
-              style: !isMobile
-                ? { objectFit: "contain", width: "100vw", height: "100vh" }
-                : { width: "100vw", height: "100vh", objectFit: "cover" },
+              style: {
+                objectFit: "cover",
+                width: "100vw",
+                height: "100vh",
+              },
             },
           },
         }}
