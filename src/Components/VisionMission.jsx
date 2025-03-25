@@ -27,7 +27,7 @@ const VisionMission = () => {
             >
               Contact Us
             </button>
-            <button>Our Services</button>
+            <button className="secondary-btn-white ml-4">Our Services</button>
           </div>
         </div>
         <div
