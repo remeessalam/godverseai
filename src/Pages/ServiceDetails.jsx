@@ -83,7 +83,9 @@ const ServiceDetails = () => {
                 {serviceDetail.whyMatter.split(":")[1]}
               </p>
               <div className="flex justify-center my-6">
-                <button className="primary-btn w-fit">Join Us Today</button>
+                <Link to={"/contact-us"} className="primary-btn w-fit">
+                  Join Us Today
+                </Link>
               </div>
             </section>
             {/** SECTION FOUR */}
@@ -105,9 +107,9 @@ const ServiceDetails = () => {
                       {serviceDetail.fourthDescripiton}
                     </p>
                   </div>
-                  <button className="primary-btn w-fit mt-3">
+                  <Link to={"/contact-us"} className="primary-btn w-fit mt-3">
                     Join Us Today
-                  </button>
+                  </Link>
                 </div>
               </div>
             </section>
