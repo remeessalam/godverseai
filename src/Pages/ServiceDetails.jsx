@@ -1,23 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { serviceDetails } from "../util/services";
 import { Circle } from "lucide-react";
 import { useTheme } from "../Context/ThemeContext";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
+import { LoadingSpinner } from "../Components/Loader";
+
+const Loading = () => (
+  <div className="text-center py-20 text-xl">Loading...</div>
+);
 
 const ServiceDetails = () => {
   const { title } = useParams();
-  const serviceDetail = serviceDetails.find(
-    (service) => service.link === title
-  );
-
-  // const serviceDetail = serviceDetails[0];
+  const [serviceDetail, setServiceDetail] = useState(null);
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
+
+  useEffect(() => {
+    const detail = serviceDetails.find((service) => service.link === title);
+    setServiceDetail(detail);
+  }, [title]);
+
+  if (!serviceDetail) {
+    return <LoadingSpinner />;
+  }
+
   return (
     <div className="dark:bg-darkblack">
       <div className="pt-[4.5rem]">
         <section
-          className=" flex justify-start p-10 items-end h-[30rem] bg-current bg-cover md:bg-cover bg-no-repeat bg-center"
+          className="flex justify-start p-10 items-end h-[30rem] bg-current bg-cover md:bg-cover bg-no-repeat bg-center"
           style={{ backgroundImage: `url(${serviceDetail.bannerimg})` }}
         >
           <h1 className="text-[48px] font-bold text-white">
@@ -29,12 +40,12 @@ const ServiceDetails = () => {
         <div
           className={`absolute ${
             isDarkMode ? `flex` : "hidden"
-          } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
+          } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground`}
         />
-        <section className=" wrapper ">
+        <section className="wrapper">
           <div className="relative z-10">
-            {/** SECTION ONE */}
-            <section className=" paddingtop paddingbottom">
+            {/* SECTION ONE */}
+            <section className="paddingtop paddingbottom">
               <div>
                 <h1 className="section-heading dark:text-white text-darkblack">
                   {serviceDetail.heading}
@@ -42,8 +53,8 @@ const ServiceDetails = () => {
                 <p className="desc mt-5">{serviceDetail.description}</p>
               </div>
             </section>
-            {/** SECTION TWO */}
 
+            {/* SECTION TWO */}
             <section className="grid md:grid-cols-2 paddingbottom">
               <div>
                 <h2 className="text-[22px] font-bold dark:text-white text-darkblack">
@@ -71,8 +82,8 @@ const ServiceDetails = () => {
                 />
               </div>
             </section>
-            {/** SECTION THREE */}
 
+            {/* SECTION THREE */}
             <section>
               <h2 className="text-[22px] font-bold dark:text-white text:darkbackground">
                 {serviceDetail.thirdHeading}
@@ -88,11 +99,11 @@ const ServiceDetails = () => {
                 </Link>
               </div>
             </section>
-            {/** SECTION FOUR */}
 
+            {/* SECTION FOUR */}
             <section className="paddingbottom">
               <hr className="border border-primary" />
-              <div className="grid md:grid-cols-2 gap-10 mt-6 ">
+              <div className="grid md:grid-cols-2 gap-10 mt-6">
                 <img
                   src={serviceDetail.imgagetwo}
                   alt="image-two"
