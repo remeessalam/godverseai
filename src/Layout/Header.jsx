@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import { useTheme } from "../Context/ThemeContext";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/headerlogo.png";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
               <img
                 src={logo}
                 alt="logo"
-                className="sm:w-[7.5rem] sm:h-[3.5rem] w-[6.5rem] "
+                // className="sm:w-[7.5rem] sm:h-[3.5rem] w-[6.5rem] "
               />
             </div>
           </div>

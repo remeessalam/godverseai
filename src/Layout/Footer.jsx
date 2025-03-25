@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/headerlogo.png";
 import { useTheme } from "../Context/ThemeContext";
 import { companyDetails } from "../util/constant";
 
@@ -14,7 +14,7 @@ const Footer = () => {
           isDarkMode ? `flex` : "hidden"
         } -bottom-[15rem] blur-3xl left-0 w-full h-full bg-footerBackground -z-10 `}
       />
-      <footer className="w-full  px-4 py-16 md:px-8 z-10">
+      <footer className="w-full   py-16  z-10">
         <div className="wrapper">
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">
             <div className="col-span-1">
@@ -22,7 +22,7 @@ const Footer = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  className="sm:w-[7.5rem] sm:h-[3.5rem] w-[6.5rem] "
+                  // className="sm:w-[7.5rem] sm:h-[3.5rem] w-[6.5rem] "
                 />
               </div>
               <p className="text-white text-sm max-w-xs">
