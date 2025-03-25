@@ -210,7 +210,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Before we partnered with [Your Company Name], we were struggling to make sense of our data. Their business intelligence solutions have completely changed that. With the dashboards and real-time analytics they built for us, we can now track important metrics and make informed decisions with confidence. The ability to instantly access key insights has made a huge difference in our strategy and operations.",
+      "Before we partnered with GodverseAI, we were struggling to make sense of our data. Their business intelligence solutions have completely changed that. With the dashboards and real-time analytics they built for us, we can now track important metrics and make informed decisions with confidence. The ability to instantly access key insights has made a huge difference in our strategy and operations.",
     author: "James M., Director of Analytics, Global Manufacturing Company",
     rating: 5,
     gridClass: "col-span-1",
