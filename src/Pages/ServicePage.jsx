@@ -14,7 +14,7 @@ const ServicePage = () => {
         <div
           className={`absolute ${
             isDarkMode ? `flex` : "hidden"
-          } -top-[43rem] blur-3xl left-0 w-full z-20 h-full bg-footerBackground  `}
+          } -top-[43rem] blur-3xl left-0 w-full z-10 h-full bg-footerBackground  `}
         />{" "}
         <section className="relative flex flex-col items-center gap-10 z-10 w-full h-full ">
           <div

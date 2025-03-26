@@ -16,6 +16,14 @@ html {
   background-color: #020816;
   overflow-x: hidden;
 }
+.videoplayer video {
+  object-fit: cover !important;
+}
+@media only screen and (max-width: 767px) {
+  .videoplayer video {
+    object-fit: contain !important;
+  }
+}
 
 @layer utilities {
   .wrapper {

@@ -4,7 +4,7 @@ const RoundedHeader = ({ title, bg }) => {
   return (
     <div
       data-aos="fade-up"
-      className={`border  w-fit border-slate-500 rounded-full px-4 py-2 ${
+      className={`border z-50  w-fit border-slate-500 rounded-full px-4 py-2 ${
         bg
           ? `bg-transparent dark:text-white text-black`
           : `bg-gradient-to-r from-gray-600 to-darkblack text-white`
