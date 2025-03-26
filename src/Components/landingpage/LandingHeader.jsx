@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
-import logo from "../../assets/images/logo.png";
-import { Link, useNavigate } from "react-router-dom";
+import logo from "../../assets/images/headerlogo.png";
+import { Link } from "react-router-dom";
 import { useTheme } from "../../Context/ThemeContext";
 import { Link as Scrolllink } from "react-scroll";
 
@@ -13,10 +13,10 @@ const LandingHeader = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const navigate = useNavigate();
-  const navigateTo = () => {
-    navigate("/contact-us");
-  };
+  // const navigate = useNavigate();
+  // const navigateTo = () => {
+  //   navigate("/contact-us");
+  // };
   return (
     <nav className="fixed w-full top-0 !z-50 bg-primary dark:bg-darkblack shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,6 +114,7 @@ const LandingHeader = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">
             <Link
               to="/"
+              onClick={toggleMenu}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Home
@@ -121,6 +122,7 @@ const LandingHeader = () => {
             <Scrolllink
               to="about-us"
               key={"about-us"}
+              onClick={toggleMenu}
               spy={true}
               smooth={true}
               offset={-140}
@@ -133,6 +135,7 @@ const LandingHeader = () => {
             <Scrolllink
               to="services"
               key={"services"}
+              onClick={toggleMenu}
               spy={true}
               smooth={true}
               offset={-140}
@@ -144,18 +147,19 @@ const LandingHeader = () => {
             </Scrolllink>
             <Link
               to="/blog"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
+              className="block px-3  pt-2 pb-3 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Blog
             </Link>
             <Scrolllink
               to="contact"
               key={"contact"}
+              onClick={toggleMenu}
               spy={true}
               smooth={true}
               offset={-140}
               duration={1000}
-              className="w-full text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
+              className="w-full  text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
             >
               Contact Us
             </Scrolllink>

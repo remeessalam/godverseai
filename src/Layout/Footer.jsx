@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
 
             <div className="col-span-1">
-              <div className="flex gap-2">
+              {/* <div className="flex gap-2">
                 <input
                   type="email"
                   placeholder="Enter email address"
@@ -84,7 +84,7 @@ const Footer = () => {
                 <button className="bg-white text-black px-4 py-2 rounded-md text-sm whitespace-nowrap">
                   Send a Email
                 </button>
-              </div>
+              </div> */}
               <div className="flex space-x-4 mt-8">
                 {companyDetails.socialLinks.map((obj, index) => (
                   <Link
