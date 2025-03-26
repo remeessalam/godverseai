@@ -18,7 +18,7 @@ const HomePage = () => {
     <div className="min-h-screen overflow-x-hidden">
       <HomePageBanner />
       <section>
-        <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
+        <div className="wrapper grid md:grid-cols-2 gap-10 sm:pt-[4rem] pt-[2rem] paddingbottom">
           <img data-aos="fade-right" src={homeaboutimg} alt="homeaboutimg" />
           <div>
             <h1 className="main-title leading-tight" data-aos="fade-left">

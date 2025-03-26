@@ -55,14 +55,15 @@ const HomePageBanner = () => {
   }, [displayHeading, displayParagraph, headingComplete]);
 
   return (
-    <div className="relative w-full bg-[#060b19]">
+    <div className="relative w-full bg-[#060b19] sm:min-h-screen">
+      <div className="absolute left-0 top-0 w-full h-full bg-black/40 sm:hidden flex" />
       <ReactPlayer
         url={bannervideo}
         loop={true}
         playsinline
         playing={true}
-        width="100%"
-        height="100vh"
+        // width="100%"
+        // height="100vh"
         muted
         className="object-cover videoplayer"
         config={{
@@ -70,15 +71,15 @@ const HomePageBanner = () => {
             attributes: {
               style: {
                 // objectFit: "cover",
-                width: "100vw",
-                height: "100vh",
+                // width: "100vw",
+                // height: "100vh",
               },
             },
           },
         }}
       />
       <div className="absolute flex flex-col items-center justify-between    left-0 top-0 w-full h-full pt-[7rem]">
-        <h1 className="text-5xl font-bold text-center text-white mb-6">
+        <h1 className="sm:text-5xl text-lg font-bold text-center text-white mb-6">
           {displayHeading}
           {cursorPosition === "heading" && (
             <span
@@ -92,7 +93,7 @@ const HomePageBanner = () => {
         </h1>
 
         <div className="flex flex-col gap-8 pb-5">
-          <p className="font-bold text-xl text-white sm:text-start text-center">
+          <p className="font-bold max-w-[19rem] sm:max-w-full text-sm sm:text-xl text-white sm:text-start text-center">
             {displayParagraph}
             {cursorPosition === "paragraph" && (
               <span

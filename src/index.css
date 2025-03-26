@@ -16,12 +16,27 @@ html {
   background-color: #020816;
   overflow-x: hidden;
 }
+.videoplayer {
+  width: 100vw !important;
+  height: 100vh !important;
+}
 .videoplayer video {
+  height: 100%;
   object-fit: cover !important;
 }
 @media only screen and (max-width: 767px) {
   .videoplayer video {
-    object-fit: contain !important;
+    /* width: 100vw; */
+    padding-top: 5rem;
+    height: fit-content !important;
+    max-height: 45vh !important;
+    object-fit: cover !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .videoplayer {
+    width: 100vw;
+    height: 45vh !important;
   }
 }
 
