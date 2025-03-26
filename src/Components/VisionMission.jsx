@@ -27,7 +27,12 @@ const VisionMission = () => {
             >
               Contact Us
             </button>
-            <button className="secondary-btn-white ml-4">Our Services</button>
+            <button
+              onClick={() => navigateTo("/services")}
+              className="secondary-btn-white ml-4"
+            >
+              Our Services
+            </button>
           </div>
         </div>
         <div
