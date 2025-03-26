@@ -18,15 +18,13 @@ const HomePageBanner = () => {
   const [cursorPosition, setCursorPosition] = useState("heading");
 
   useEffect(() => {
-    // Type out the heading text
     if (displayHeading.length < headingText.length) {
       const typingTimer = setTimeout(() => {
         setDisplayHeading(headingText.substring(0, displayHeading.length + 1));
-      }, 150); // Adjust typing speed here
+      }, 150);
 
       return () => clearTimeout(typingTimer);
     } else if (!headingComplete) {
-      // Short pause before starting the paragraph
       const pauseTimer = setTimeout(() => {
         setHeadingComplete(true);
         setCursorPosition("paragraph");
@@ -35,18 +33,16 @@ const HomePageBanner = () => {
       return () => clearTimeout(pauseTimer);
     }
 
-    // Type out the paragraph text
     if (headingComplete && displayParagraph.length < paragraphText.length) {
       const typingTimer = setTimeout(() => {
         setDisplayParagraph(
           paragraphText.substring(0, displayParagraph.length + 1)
         );
-      }, 100); // Slightly faster typing for paragraph
+      }, 100);
 
       return () => clearTimeout(typingTimer);
     }
 
-    // Blink cursor after all typing is complete
     const cursorTimer = setInterval(() => {
       setCursorVisible((prev) => !prev);
     }, 500);
