@@ -56,7 +56,7 @@ const ServiceDetails = () => {
             </section>
 
             {/* SECTION TWO */}
-            <section className="grid md:grid-cols-2 paddingbottom">
+            <section className="grid md:grid-cols-2 paddingbottom gap-8">
               <div>
                 <h2 className="text-[22px] font-bold dark:text-white text-darkblack">
                   {serviceDetail.secondHeading}
