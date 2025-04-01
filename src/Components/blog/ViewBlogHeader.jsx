@@ -1,7 +1,7 @@
 import React from "react";
 // import aiImage from "../../assets/images/Product_Engineering.png";
 
-function ViewBlogHeader({ image, title, readTime, date }) {
+function ViewBlogHeader({ image, title, readTime, date, intro, description }) {
   console.log(image, "imageUrl");
 
   return (
@@ -18,6 +18,21 @@ function ViewBlogHeader({ image, title, readTime, date }) {
           alt="AI & Data"
           className="w-full max-h-[480px] md:h-[480px] rounded-xl object-cover"
         />
+      </div>
+      <div>
+        <h1
+          className="text-2xl font-semibold dark:text-white my-4"
+          data-aos="fade-up"
+        >
+          {intro}
+        </h1>
+        <p
+          className="text-black dark:text-gray-400"
+          data-aos="fade-up"
+          dangerouslySetInnerHTML={{ __html: description }}
+        >
+          {/* {description} */}
+        </p>
       </div>
     </header>
   );

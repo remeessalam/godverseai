@@ -3,7 +3,7 @@ import ViewBlogHeader from "../Components/blog/ViewBlogHeader";
 import { useTheme } from "../Context/ThemeContext";
 import ViewBlogContent from "../Components/blog/viewBlogContent";
 import { useParams } from "react-router-dom";
-import { blogPosts } from "../util/blog";
+import { blogDetails } from "../util/blog";
 import BlogBody from "../Components/blog/blogBody";
 import Faq from "../Components/Faq";
 import RoundedHeader from "../Components/RoundedHeader";
@@ -13,7 +13,7 @@ function BlogView() {
   const isDarkMode = theme === "dark";
   const { id } = useParams();
   const blogId = Number(id);
-  const blog = blogPosts.find((post) => post.id === blogId);
+  const blog = blogDetails.find((post) => post.id === blogId);
 
   function getRandomPosts(posts, count, excludeId) {
     const filteredPosts = posts.filter((post) => post.id !== excludeId);
@@ -21,8 +21,8 @@ function BlogView() {
     return shuffled.slice(0, count);
   }
 
-  const randomPosts = getRandomPosts(blogPosts, 3, blogId);
-
+  const randomPosts = getRandomPosts(blogDetails, 3, blogId);
+  console.log(blog, "asdfasdfasdfs");
   return (
     <div className="relative bg-white dark:bg-darkblack overflow-x-hidden max-w-screen">
       <div
@@ -32,12 +32,14 @@ function BlogView() {
       />{" "}
       <div className="relative max-w-3xl mx-auto px-4  pt-[7rem]   overflow-hidden ">
         <ViewBlogHeader
-          image={blog.imageUrl}
-          title={blog.title}
-          readTime={blog.readTime}
-          date={blog.date}
+          image={blog?.imageUrl}
+          title={blog?.title}
+          readTime={blog?.readTime}
+          date={blog?.date}
+          intro={blog?.intro}
+          description={blog?.description}
         />
-        <ViewBlogContent />
+        <ViewBlogContent sections={blog?.sections} />
       </div>
       <div className="wrapper paddingtop">
         <div className="flex justify-center items-center flex-col">
