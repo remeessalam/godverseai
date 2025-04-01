@@ -224,11 +224,11 @@ export const blogDetails = [
         heading: "The Future is Now",
         text: "As we step into the Web 4.0 era, businesses and innovators must harness the powerful combination of AI and blockchain to drive transformation. Those who fail to adapt risk being left behind.",
       },
-      {
-        heading:
-          "💬 Do you think blockchain & AI together will change the world? Drop a comment below or DM me ‘Synergy’ to learn more about this powerful revolution!",
-        text: "",
-      },
+      // {
+      //   heading:
+      //     "💬 Do you think blockchain & AI together will change the world? Drop a comment below or DM me ‘Synergy’ to learn more about this powerful revolution!",
+      //   text: "",
+      // },
     ],
   },
   {
