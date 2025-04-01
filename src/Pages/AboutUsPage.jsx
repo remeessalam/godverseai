@@ -7,7 +7,7 @@ import OurStory from "../Components/OurStory";
 import UnlockEfficiency from "../Components/UnlockEfficiency";
 import Faq from "../Components/Faq";
 import BlogBody from "../Components/blog/blogBody";
-import { blogPosts } from "../util/blog";
+import { blogDetails } from "../util/blog";
 const AboutUsPage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -17,7 +17,7 @@ const AboutUsPage = () => {
     return shuffled.slice(0, count);
   }
 
-  const randomPosts = getRandomPosts(blogPosts, 3);
+  const randomPosts = getRandomPosts(blogDetails, 3);
   return (
     <div className=" bg-white dark:bg-darkblack">
       <section className="relative pt-[7rem]  overflow-hidden">
