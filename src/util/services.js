@@ -157,7 +157,7 @@ export const serviceDetails = [
     link: "full-stack-web-development",
     imageone: Full_Stack_sub1,
     imgagetwo: Full_Stack_sub2,
-    title: " Full Stack Web Development",
+    title: "Full Stack Web Development",
     heading: "At GodverseAI, Building Powerful Digital Solutions",
     description:
       "Great design is more than just eye candy—it’s about creating intuitive, engaging user experiences. Our UX/UI designers specialize in building interfaces that are as easy to use as they are beautiful. By studying user behavior and optimizing workflows, we craft interfaces that deliver exceptional usability and aesthetic appeal. From initial sketches to fully interactive prototypes, we ensure your digital product feels just right for every user.",
@@ -195,7 +195,7 @@ export const serviceDetails = [
     link: "ai-calling-agency",
     imageone: AICallingAgencysub1,
     imgagetwo: AICallingAgencysub2,
-    title: " AI Calling Agency",
+    title: "AI Calling Agency",
     heading: "At GodverseAI, Revolutionizing Business Communication",
     description:
       "AI-driven communication is revolutionizing how businesses engage with customers. Our AI calling solutions create intelligent virtual agents capable of handling customer inquiries, providing real-time assistance, and improving operational efficiency. By integrating voice technology, we enable your business to offer 24/7 support, reduce customer service costs, and enhance the overall customer experience, all through the power of AI.",
@@ -234,7 +234,7 @@ export const serviceDetails = [
     link: "chatbot-development",
     imageone: Chatbot_DevelopmentSub1,
     imgagetwo: Chatbot_DevelopmentSub2,
-    title: " Chatbot Development",
+    title: "Chatbot Development",
     heading: "At GodverseAI, Smarter, Faster Customer Interaction",
     description:
       "Chatbots are an essential part of modern business operations, offering instant, automated responses to customer queries. We design and develop advanced chatbots that understand context, adapt to user needs, and provide personalized experiences. Whether you want to improve customer support or drive sales, our bots are designed to seamlessly integrate with your platforms and offer efficient, reliable service around the clock.",
@@ -311,7 +311,7 @@ export const serviceDetails = [
     link: "data-science-analytics",
     imageone: Data_Science_and_Analyticssub1,
     imgagetwo: Data_Science_and_Analyticssub2,
-    title: " Data Science and Analytics",
+    title: "Data Science and Analytics",
     heading:
       "At GodverseAI, We Turn Data into Strategic Insights for Smarter Decisions",
     description:
@@ -427,7 +427,7 @@ export const serviceDetails = [
     link: "game-development",
     imageone: Game_DevelopmentSub1,
     imgagetwo: Game_DevelopmentSub2,
-    title: " Game Development",
+    title: "Game Development",
     heading: "At GodverseAI, Engaging Players with Cutting-Edge Technology",
     description:
       "The gaming industry is evolving, and so are we. Our game development services are designed to create unforgettable, engaging experiences across mobile, console, and VR platforms. By combining the latest technologies with immersive storytelling and stunning graphics, we deliver games that captivate players from start to finish. Whether you're building a casual mobile game or an expansive VR universe, we’ve got the skills to bring your vision to life.",
@@ -465,7 +465,7 @@ export const serviceDetails = [
     link: "iot-development",
     imageone: IoT_DevelopmentSub1,
     imgagetwo: IoT_DevelopmentSub2,
-    title: " IoT Development",
+    title: "IoT Development",
     heading: "At GodverseAI, Connecting the Digital World",
     description:
       "The Internet of Things (IoT) is revolutionizing industries by connecting everyday devices to the internet for smarter, more efficient operations. Our IoT development services help you design and implement connected solutions that improve performance, enhance user experiences, and reduce operational costs. From smart home devices to industrial sensors, we create scalable, secure IoT ecosystems that provide real-time data and automation to make your business smarter.",
