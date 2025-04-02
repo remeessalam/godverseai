@@ -182,11 +182,11 @@ export const blogDetails = [
         heading: "Are You Future-Ready?",
         text: "The question isn’t whether automation will change the workforce—it already is. The real question is: Will you adapt and thrive in the new era of intelligent automation?",
       },
-      {
-        heading:
-          "👇 Drop a ‘FutureWork’ in the comments if you’re ready for the transformation!",
-        text: "",
-      },
+      // {
+      //   heading:
+      //     "👇 Drop a ‘FutureWork’ in the comments if you’re ready for the transformation!",
+      //   text: "",
+      // },
     ],
   },
   {
