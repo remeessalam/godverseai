@@ -21,7 +21,7 @@ const LeadForm = () => {
 
     var emailBody = "Name: " + values.fullName + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
-    emailBody += "Phone: " + values.phoneNumber + "\n\n";
+    emailBody += "Phone: " + values.phone + "\n\n";
     emailBody += "Subject: " + values.subject + "\n\n";
     emailBody += "Message:\n" + values.message;
 
@@ -122,11 +122,26 @@ const LeadForm = () => {
                 Phone
               </label>
               <input
-                {...register("phone", { required: "Phone is required" })}
+                {...register("phone", {
+                  required: "Phone is required",
+                  pattern: {
+                    value: /^[0-9]+$/,
+                    message: "Only numbers are allowed",
+                  },
+                  minLength: {
+                    value: 10,
+                    message: "Phone number must be at least 10 digits",
+                  },
+                  maxLength: {
+                    value: 12,
+                    message: "Phone number must be 10 digits",
+                  },
+                })}
                 type="text"
                 placeholder="+91"
                 className="p-3 rounded-xl bg-slate-800 border text-white border-slate-600 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               />
+
               {errors.phone && (
                 <p className="text-red-500 text-sm">{errors.phone.message}</p>
               )}
