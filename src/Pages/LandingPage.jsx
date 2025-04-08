@@ -20,7 +20,7 @@ const LandingPage = ({ page }) => {
     <>
       <LandingHeader />
       <div className="bg-white dark:bg-darkblack">
-        <HomePageBanner />
+        <HomePageBanner page={page} />
         <section id="about-us">
           <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
             <img src={homeaboutimg} alt="homeaboutimg" />
@@ -42,6 +42,8 @@ const LandingPage = ({ page }) => {
             </div>
           </div>
         </section>
+        <LeadForm />
+
         <LandingServices page={page} />
         <div className="relative overflow-hidden">
           <div

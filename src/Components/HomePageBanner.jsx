@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import bannervideo from "../assets/video/bannervideo.mp4";
 import ReactPlayer from "react-player";
 import { useNavigate } from "react-router-dom";
-const HomePageBanner = () => {
+const HomePageBanner = ({ page }) => {
   const navigate = useNavigate();
   const navigateTo = (link) => {
     navigate(link);
@@ -101,22 +101,24 @@ const HomePageBanner = () => {
               </span>
             )}
           </p>
-          <div className="flex justify-center gap-5">
-            <button
-              data-aos="fade-right"
-              onClick={() => navigateTo("/about-us")}
-              className="primary-btn"
-            >
-              Get Start{" "}
-            </button>
-            <button
-              data-aos="fade-left"
-              onClick={() => navigateTo("/contact-us")}
-              className="secondary-btn-white"
-            >
-              Contact Us{" "}
-            </button>
-          </div>
+          {!page && (
+            <div className="flex justify-center gap-5">
+              <button
+                data-aos="fade-right"
+                onClick={() => navigateTo("/about-us")}
+                className="primary-btn"
+              >
+                Get Start{" "}
+              </button>
+              <button
+                data-aos="fade-left"
+                onClick={() => navigateTo("/contact-us")}
+                className="secondary-btn-white"
+              >
+                Contact Us{" "}
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -20,7 +20,13 @@ const CoreValues = () => {
                 <h1 className="text-2xl font-medium dark:text-primary">
                   {obj.title}
                 </h1>
-                <img src={obj.icon} alt="" />
+                <img
+                  src={obj.icon}
+                  alt=""
+                  className={`${
+                    obj.id === 1 ? `brightness-50` : `brightness-100`
+                  }`}
+                />
               </div>
               <p className="desc max-w-[25rem]">{obj.description}</p>
             </div>

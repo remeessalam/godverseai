@@ -355,21 +355,21 @@ export const coreValues = [
       "Transparency and honesty guide our interstellar relationships.",
   },
   {
-    id: 1,
+    id: 2,
     icon: quality,
     title: "Quality",
     description:
       "We pursue excellence in every line of code, every design pixel, every cosmic dimension.",
   },
   {
-    id: 1,
+    id: 3,
     icon: success,
     title: "Customer Success",
     description:
       " Your triumph is ours—measured by tangible impact and universal reach.",
   },
   {
-    id: 1,
+    id: 4,
     icon: Infinite,
     title: "Infinite Learning",
     description:
