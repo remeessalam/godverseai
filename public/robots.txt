@@ -1,10 +1,7 @@
 
 # *
 User-agent: *
+Disallow: /admin/
 Allow: /
 
-# Host
-Host: https://godverseai.com
-
-# Sitemaps
-Sitemap: https://godverseai.com/sitemap.xml
+Sitemap: https://www.godverseai.com/sitemap.xml
