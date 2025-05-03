@@ -31,24 +31,17 @@ import security from "../assets/images/industries/security.jpg";
 // porfolio image
 // Import all images at the top (Web Development)
 import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
-import BayutImg from "../assets/web-development-portfolio/bayut.png";
-import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
-import EmergencyMusicImg from "../assets/web-development-portfolio/emergency music .png";
-import FlatiornImg from "../assets/web-development-portfolio/flatiorn.png";
-import MavenImg from "../assets/web-development-portfolio/maven.png";
-import MenissaCateringsImg from "../assets/web-development-portfolio/menissa caterings.png";
-import MethodistImg from "../assets/web-development-portfolio/methodist.png";
-import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold-creekcap.png";
+import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.png";
+import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.png";
+import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.png";
 
 // Import all images at the top (App Development)
-import DubaiTravelGuideImg from "../assets/app-development-portfolio/dubai travel guide.png";
-import EloraHairPalourImg from "../assets/app-development-portfolio/elora hair palour.png";
-import EvansFrancisImg from "../assets/app-development-portfolio/evans francis.png";
-import HouseOfDeliverenceImg from "../assets/app-development-portfolio/house of deliverence.png";
-import MybitsShopImg from "../assets/app-development-portfolio/mybitsshop.png";
-import NamazImg from "../assets/app-development-portfolio/namaz.png";
-import PoteaImg from "../assets/app-development-portfolio/potea.png";
-import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
+import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.png";
+import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.png";
+import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.png";
+import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.png";
+import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.png";
 //portfolio
 import nanoflow from "../assets/portfolio/nanoflow.png";
 import padipal from "../assets/portfolio/padipal.png";
@@ -535,46 +528,10 @@ export const webPortfolio = [
     link: "https://5ghighspeedinternet.co",
   },
   {
-    id: 2,
-    img: BayutImg,
-    title: "Bayut",
-    link: "https://www.bayut.com",
-  },
-  {
     id: 3,
     img: ColdCreekcapImg,
     title: "Cold Creekcap",
     link: "https://www.coldcreekcap.com",
-  },
-  {
-    id: 4,
-    img: EmergencyMusicImg,
-    title: "Emergency Music",
-    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
-  },
-  {
-    id: 5,
-    img: FlatiornImg,
-    title: "Flatiorn",
-    link: "",
-  },
-  {
-    id: 6,
-    img: MavenImg,
-    title: "Maven",
-    link: "",
-  },
-  {
-    id: 7,
-    img: MenissaCateringsImg,
-    title: "Menissa Caterings",
-    link: "https://messinascatering.com",
-  },
-  {
-    id: 8,
-    img: MethodistImg,
-    title: "Methodist",
-    link: "",
   },
   {
     id: 9,
@@ -582,54 +539,48 @@ export const webPortfolio = [
     title: "Think Reality",
     link: "https://thinkrealty.ae",
   },
+  {
+    id: 90,
+    img: AkashMegaMart,
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
+  },
+  {
+    id: 91,
+    img: MidwamImmersive,
+    title: "Midwam – Immersive Experience Design Company",
+    link: "https://www.midwam.com/en/about",
+  },
 ];
 
 export const appPortfolio = [
   {
     id: 1,
-    img: DubaiTravelGuideImg,
-    title: "Dubai Travel Guide",
-    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+    img: AkashMegaMartApp,
+    title: "Akash Mega Mart Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: EloraHairPalourImg,
-    title: "Elora Hair Palour",
-    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+    img: FeelItMobileApp,
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: EvansFrancisImg,
-    title: "Evans Francis",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
-  },
-  {
-    id: 4,
-    img: HouseOfDeliverenceImg,
-    title: "House of Deliverence",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
-  },
-  {
-    id: 5,
-    img: MybitsShopImg,
-    title: "Mybits Shop",
+    img: KlikomicsMobileApp,
+    title: "Klikomics Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
-    id: 6,
-    img: NamazImg,
-    title: "Namaz",
-    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
-  },
-  {
-    id: 7,
-    img: PoteaImg,
-    title: "Potea",
+    id: 4,
+    img: AutoSnapMobileApp,
+    title: "AutoSnap Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
     id: 8,
-    img: RentopBikeAndCarImg,
+    img: RentopBikeAndCarImgapp,
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },

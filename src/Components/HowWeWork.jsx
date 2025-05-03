@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import backgroundimg from "../assets/images/backgroundimg.png";
-import backgroundwhiteimg from "../assets/images/backgroundwhiteimg.png";
+// import backgroundimg from "../assets/images/backgroundimg.png";
+// import backgroundwhiteimg from "../assets/images/backgroundwhiteimg.png";
 import howweworkimg from "../assets/images/howweworkimg.jpeg";
-import { useTheme } from "../Context/ThemeContext";
+// import { useTheme } from "../Context/ThemeContext";
 
 const HowWeWork = () => {
-  const { theme } = useTheme();
-  const isDarkMode = theme === "dark";
+  // const { theme } = useTheme();
+  // const isDarkMode = theme === "dark";
   const navigate = useNavigate();
   const navigateTo = (link) => {
     navigate(link);
@@ -14,13 +14,13 @@ const HowWeWork = () => {
   return (
     <div>
       <div className=" relative overflow-hidden paddingtop paddingbottom">
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
           <img
             src={isDarkMode ? backgroundimg : backgroundwhiteimg}
             alt=""
             className="w-full h-full object-contain opacity-30"
           />
-        </div>
+        </div> */}
 
         <div className="wrapper relative z-10">
           <div className="text-center mb-12">
