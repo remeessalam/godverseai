@@ -22,7 +22,7 @@ const CoreValues = () => {
                 </h1>
                 <img
                   src={obj.icon}
-                  alt=""
+                  alt={`core-value-icons-${obj.title}`}
                   className={`${
                     obj.id === 1 ? `brightness-50` : `brightness-100`
                   }`}

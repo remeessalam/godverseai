@@ -24,7 +24,11 @@ const OurStory = () => {
             your vision across all continents—and beyond.
           </p>
         </div>
-        <img data-aos="fade-left" src={visionmissionimg} alt="" />
+        <img
+          data-aos="fade-left"
+          src={visionmissionimg}
+          alt="our-story-image"
+        />
       </div>
     </section>
   );
