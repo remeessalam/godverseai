@@ -12,6 +12,7 @@ import UnlockEfficiency from "../Components/UnlockEfficiency";
 import Faq from "../Components/Faq";
 import LeadForm from "../Components/landingpage/LeadForm";
 import Portfolio from "../Components/Portfolio";
+import ClientLogos from "../Components/ClientLogos";
 
 const LandingPage = ({ page }) => {
   const { theme } = useTheme();
@@ -42,6 +43,8 @@ const LandingPage = ({ page }) => {
             </div>
           </div>
         </section>
+        <Portfolio page={page} />
+
         <LeadForm />
 
         <LandingServices page={page} />
@@ -51,14 +54,14 @@ const LandingPage = ({ page }) => {
               isDarkMode ? `flex` : "hidden"
             } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
           />
-          <Portfolio page={page} />
+          <ClientLogos />
           <section className="relative z-10 w-full h-full">
             <CoreValues />
             <VisionMission />
             <OurStory />
             <UnlockEfficiency />
-            <Faq />
             <LeadForm />
+            <Faq />
           </section>
         </div>
       </div>
