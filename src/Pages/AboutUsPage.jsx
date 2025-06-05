@@ -19,7 +19,7 @@ const AboutUsPage = () => {
 
   const randomPosts = getRandomPosts(blogDetails, 3);
   return (
-    <div className=" bg-white dark:bg-darkblack">
+    <div className="">
       <section className="relative pt-[7rem]  overflow-hidden">
         <div
           className={`absolute ${

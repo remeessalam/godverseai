@@ -9,7 +9,7 @@ const ServicePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
   return (
-    <div className=" bg-white dark:bg-darkblack">
+    <div className=" ">
       <section className="pt-[4rem]">
         <div
           className={`absolute ${

@@ -58,7 +58,7 @@ const ContactUsPage = () => {
       .finally(() => setSpinner(false));
   };
   return (
-    <div className="min-h-screen dark:bg-darkblack text-white flex flex-col items-center justify-center pt-[7rem] px-4">
+    <div className="min-h-screen  text-white flex flex-col items-center justify-center pt-[7rem] px-4">
       <div className="w-full max-w-6xl">
         <div className="flex flex-col md:flex-row gap-8 mb-16">
           <div className="w-full md:w-1/2">

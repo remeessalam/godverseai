@@ -28,7 +28,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="bg-white dark:bg-darkblack">
+    <div className="">
       <div className="wrapper pt-[7rem] paddingbottom ">
         <h2 className="main-title text-center paddingbottom">My Portfolio</h2>
 

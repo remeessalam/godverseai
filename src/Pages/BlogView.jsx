@@ -24,7 +24,7 @@ function BlogView() {
   const randomPosts = getRandomPosts(blogDetails, 3, blogId);
   console.log(blog, "asdfasdfasdfs");
   return (
-    <div className="relative bg-white dark:bg-darkblack overflow-x-hidden max-w-screen">
+    <div className="relative  overflow-x-hidden max-w-screen">
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
