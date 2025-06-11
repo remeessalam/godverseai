@@ -26,6 +26,17 @@ const AppLayout = () => {
           width="100%"
           height="100%"
           muted
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  objectFit: "cover",
+                  width: "100vw",
+                  height: "100vh",
+                },
+              },
+            },
+          }}
         />
       </div>
       <WhatsAppIcon />

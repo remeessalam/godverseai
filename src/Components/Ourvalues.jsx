@@ -51,37 +51,60 @@ const Ourvalues = () => {
       <div className="paddingtop paddingbottom wrapper">
         <div
           ref={ref}
-          //   data-aos-offset={-200}
           data-aos="fade-up"
-          className="w-full text-white grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 lg:gap-5 rounded-3xl dark:bg-darkblack bg-primary p-[2rem]"
+          className="w-full text-white grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 lg:gap-5 rounded-3xl backdrop-blur-lg border border-slate-600 p-[2rem]"
         >
-          <div className="w-full flex flex-col items-center justify-center">
+          <div className="w-full flex flex-col items-center justify-center group hover:scale-105 transition-transform duration-300 hover:bg-white/10 rounded-xl p-4 cursor-default">
             <div className="flex flex-col gap-3 relative w-fit">
-              <h1 className="main-title !text-white">{yrs}</h1>
-              <span className="absolute top-1 -right-3 text-lg">+</span>
+              <h1 className="main-title !text-white group-hover:text-primary-500 transition-colors duration-300">
+                {yrs}
+              </h1>
+              <span className="absolute top-1 -right-3 text-lg group-hover:text-primary-500 transition-colors duration-300">
+                +
+              </span>
             </div>
-            <p className="desc mt-3 !text-white">Years of Experience</p>
+            <p className="desc mt-3 !text-white group-hover:text-primary-500 transition-colors duration-300">
+              Years of Experience
+            </p>
           </div>
-          <div className="w-full flex flex-col items-center justify-center">
+          <div className="w-full flex flex-col items-center justify-center group hover:scale-105 transition-transform duration-300 hover:bg-white/10 rounded-xl p-4 cursor-default">
             <div className="flex flex-col gap-3 relative w-fit">
-              <h1 className="main-title !text-white">{experts}</h1>
-              <span className="absolute top-1 -right-3 text-lg">+</span>
+              <h1 className="main-title !text-white group-hover:text-primary-500 transition-colors duration-300">
+                {experts}
+              </h1>
+              <span className="absolute top-1 -right-3 text-lg group-hover:text-primary-500 transition-colors duration-300">
+                +
+              </span>
             </div>
-            <p className="desc mt-3 !text-white">Expert Team</p>
+            <p className="desc mt-3 !text-white group-hover:text-primary-500 transition-colors duration-300">
+              Expert Team
+            </p>
           </div>
-          <div className="w-full flex flex-col items-center justify-center">
+          <div className="w-full flex flex-col items-center justify-center group hover:scale-105 transition-transform duration-300 hover:bg-white/10 rounded-xl p-4 cursor-default">
             <div className="flex flex-col gap-3 relative w-fit">
-              <h1 className="main-title !text-white">{clients}</h1>
-              <span className="absolute top-1 -right-3 text-lg">+</span>
+              <h1 className="main-title !text-white group-hover:text-primary-500 transition-colors duration-300">
+                {clients}
+              </h1>
+              <span className="absolute top-1 -right-3 text-lg group-hover:text-primary-500 transition-colors duration-300">
+                +
+              </span>
             </div>
-            <p className="desc mt-3 !text-white">Clients</p>
+            <p className="desc mt-3 !text-white group-hover:text-primary-500 transition-colors duration-300">
+              Clients
+            </p>
           </div>
-          <div className="w-full flex flex-col items-center justify-center">
+          <div className="w-full flex flex-col items-center justify-center group hover:scale-105 transition-transform duration-300 hover:bg-white/10 rounded-xl p-4 cursor-default">
             <div className="flex flex-col gap-3 relative w-fit">
-              <h1 className="main-title !text-white">{onTimeCompletion}</h1>
-              <span className="absolute top-1 -right-3 text-lg">%</span>
+              <h1 className="main-title !text-white group-hover:text-primary-500 transition-colors duration-300">
+                {onTimeCompletion}
+              </h1>
+              <span className="absolute top-1 -right-3 text-lg group-hover:text-primary-500 transition-colors duration-300">
+                %
+              </span>
             </div>
-            <p className="desc mt-3 !text-white">On Time Completion</p>
+            <p className="desc mt-3 !text-white group-hover:text-primary-500 transition-colors duration-300">
+              On Time Completion
+            </p>
           </div>
         </div>
       </div>

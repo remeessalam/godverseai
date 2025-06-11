@@ -42,6 +42,7 @@ import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mar
 import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.png";
 import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.png";
 import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.png";
+import vetlab from "../assets/app-development-portfolio/vetlab.png";
 //portfolio
 import nanoflow from "../assets/portfolio/nanoflow.png";
 import padipal from "../assets/portfolio/padipal.png";
@@ -583,6 +584,12 @@ export const appPortfolio = [
     img: RentopBikeAndCarImgapp,
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+  },
+  {
+    id: 9,
+    img: vetlab,
+    title: "Vetlab",
+    link: "https://play.google.com/store/apps/details?id=com.app.vetlab",
   },
 ];
 
