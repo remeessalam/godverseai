@@ -35,6 +35,15 @@ import ColdCreekcapImg from "../assets/web-development-portfolio/cold-creekcap.p
 import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.png";
 import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.png";
 import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.png";
+import Autopilot from "../assets/web-development-portfolio/Autopilot.png";
+import FEGroup from "../assets/web-development-portfolio/FEGroup.png";
+import HugeInc from "../assets/web-development-portfolio/HugeInc.png";
+import CodeHelp from "../assets/web-development-portfolio/CodeHelp.png";
+import Spray from "../assets/web-development-portfolio/Spray.png";
+import ArcaneMirage from "../assets/web-development-portfolio/Spray.png";
+import MessinaCatering from "../assets/web-development-portfolio/MessinaCatering.png";
+import MasterShala from "../assets/web-development-portfolio/MasterShala.png";
+import MantraDhwani from "../assets/web-development-portfolio/MantraDhwani.png";
 
 // Import all images at the top (App Development)
 import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.png";
@@ -43,10 +52,33 @@ import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-A
 import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.png";
 import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.png";
 import vetlab from "../assets/app-development-portfolio/vetlab.png";
-//portfolio
+import eva from "../assets/app-development-portfolio/eva.png";
+import evansfrancis from "../assets/app-development-portfolio/evansfrancis.png";
+import planta from "../assets/app-development-portfolio/planta.png";
+import Serviz from "../assets/app-development-portfolio/Serviz.png";
+import freshandfresh from "../assets/app-development-portfolio/freshandfresh.png";
+
+//portfolio block chain
 import nanoflow from "../assets/portfolio/nanoflow.png";
 import padipal from "../assets/portfolio/padipal.png";
 import cryptopadie from "../assets/portfolio/cryptopadie.png";
+import ProjectButterfly from "../assets/portfolio/ProjectButterfly.png";
+import Solalgo from "../assets/portfolio/Solalgo.png";
+import Taikonz from "../assets/portfolio/Taikonz.png";
+
+//ecommerce portfolio
+import Banjaaran from "../assets/ecommerce-portfolio/Banjaaran.png";
+import GullyLabs from "../assets/ecommerce-portfolio/GullyLabs.png";
+import NickronIndia from "../assets/ecommerce-portfolio/NickronIndia.png";
+import OfficialDAPP from "../assets/ecommerce-portfolio/OfficialDAPP.png";
+
+//ai Project
+import FindMyAITool from "../assets/aiportfolio/FindMyAITool.png";
+
+//shopify portfolio
+import BBBShop from "../assets/shopifyportfolio/BBBShop.png";
+import NaseemPerfume from "../assets/shopifyportfolio/NaseemPerfume.png";
+import TheEthnicCloset from "../assets/shopifyportfolio/TheEthnicCloset.png";
 
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
@@ -62,6 +94,7 @@ import { IoLogoAndroid } from "react-icons/io";
 import { SiFlutter } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
+import { title } from "framer-motion/client";
 
 export const companyDetails = {
   name: "GodversAi",
@@ -549,8 +582,62 @@ export const webPortfolio = [
   {
     id: 91,
     img: MidwamImmersive,
-    title: "Midwam – Immersive Experience Design Company",
+    title: "Midwam ",
     link: "https://www.midwam.com/en/about",
+  },
+  {
+    id: 92,
+    img: Autopilot,
+    title: "Autopilot",
+    link: "https://autopilot.io/",
+  },
+  {
+    id: 93,
+    img: FEGroup,
+    title: "FEGroup",
+    link: "https://fe.group/",
+  },
+  {
+    id: 94,
+    img: HugeInc,
+    title: "HugeInc",
+    link: "https://www.hugeinc.com/",
+  },
+  {
+    id: 95,
+    img: CodeHelp,
+    title: "CodeHelp",
+    link: "https://www.codehelp.in/",
+  },
+  {
+    id: 96,
+    img: Spray,
+    title: "Spray(Bluestar)",
+    link: "https://spray-bluestar.vercel.app/",
+  },
+  {
+    id: 97,
+    img: ArcaneMirage,
+    title: "ArcaneMirage",
+    link: "https://www.arcanemirage.com/",
+  },
+  {
+    id: 98,
+    img: MessinaCatering,
+    title: "Messina’sCatering",
+    link: "https://messinascatering.com/",
+  },
+  {
+    id: 98,
+    img: MasterShala,
+    title: "MasterShala",
+    link: "https://mastershala.com/",
+  },
+  {
+    id: 99,
+    img: MantraDhwani,
+    title: "MantraDhwani",
+    link: "https://mantradhwani.com/",
   },
 ];
 
@@ -591,6 +678,36 @@ export const appPortfolio = [
     title: "Vetlab",
     link: "https://play.google.com/store/apps/details?id=com.app.vetlab",
   },
+  {
+    id: 10,
+    img: eva,
+    title: "EvaPeopleApp",
+    link: "https://apps.apple.com/eg/app/eva-people-app/id1551622445",
+  },
+  {
+    id: 11,
+    img: evansfrancis,
+    title: "EvansFrancisChristian App",
+    link: "https://play.google.com/store/apps/details?id=com.christianappdevelopers.evansfrancis&pcampaignid=web_share",
+  },
+  {
+    id: 12,
+    img: planta,
+    title: "Planta",
+    link: "https://play.google.com/store/apps/details?id=com.stromming.planta&pcampaignid=web_share",
+  },
+  {
+    id: 13,
+    img: Serviz,
+    title: "Serviz",
+    link: "",
+  },
+  {
+    id: 14,
+    img: freshandfresh,
+    title: "FreshandFresh",
+    link: "https://play.google.com/store/apps/details?id=com.freshandfresh&hl=en_IN",
+  },
 ];
 
 export const blockchainPortfolio = [
@@ -611,5 +728,69 @@ export const blockchainPortfolio = [
     img: cryptopadie,
     title: "Cryptopadie",
     link: "https://cryptopadie.com/",
+  },
+  {
+    id: 3,
+    img: ProjectButterfly,
+    title: "ProjectButterfly",
+    link: "https://projectbutterfly.io/",
+  },
+  {
+    id: 3,
+    img: Solalgo,
+    title: "Solalgo",
+    link: "https://solalgo.com/",
+  },
+  {
+    id: 3,
+    img: Taikonz,
+    title: "Taikonz",
+    link: "https://taikonz.io/",
+  },
+];
+
+export const ecommercePortfolio = [
+  { id: 1, img: Banjaaran, title: "Banjaaran", link: "https://banjaaran.in/" },
+  { id: 2, img: GullyLabs, title: "GullyLabs", link: "https://gullylabs.com/" },
+  {
+    id: 3,
+    img: NickronIndia,
+    title: "NickronIndia",
+    link: "https://nickronindia.com/",
+  },
+  {
+    id: 3,
+    img: OfficialDAPP,
+    title: "OfficialDAPP",
+    link: "https://www.officialdapp.com/",
+  },
+];
+
+export const aiPortfolio = [
+  {
+    id: 1,
+    img: FindMyAITool,
+    title: "FindMyAITool",
+    link: "https://findmyaitool.com/",
+  },
+];
+export const shopifyPortfolio = [
+  {
+    id: 1,
+    img: BBBShop,
+    title: "BBBShop",
+    link: "https://bbbshop.in/",
+  },
+  {
+    id: 2,
+    img: NaseemPerfume,
+    title: "NaseemPerfume",
+    link: "https://www.naseemperfume.in/?srsltid=AfmBOorIvRMnc7wcdjWvHxfpimuWs5ydG5EEQhiauY7tudZmmdcva4cR",
+  },
+  {
+    id: 3,
+    img: TheEthnicCloset,
+    title: "TheEthnicCloset",
+    link: "https://theethniccloset.com/?srsltid=AfmBOoo0WbBJZTElLP4NpwdFGmYIf6jnO3uV3LWD6Fb1q-ceZVpWzihm",
   },
 ];

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import {
+  aiPortfolio,
   appPortfolio,
   blockchainPortfolio,
+  ecommercePortfolio,
+  shopifyPortfolio,
   webPortfolio,
 } from "../util/constant";
 
@@ -12,6 +15,9 @@ const Portfolio = () => {
     { key: "web", label: "Web Projects" },
     { key: "app", label: "Mobile Apps" },
     { key: "blockchain", label: "Blockchain" },
+    { key: "ecommerce", label: "Ecommerce" },
+    { key: "aiProject", label: "AI Projects" },
+    { key: "shopifyPortfolio", label: " Shopify" },
   ];
 
   const getCurrentPortfolio = () => {
@@ -22,6 +28,12 @@ const Portfolio = () => {
         return appPortfolio;
       case "blockchain":
         return blockchainPortfolio;
+      case "ecommerce":
+        return ecommercePortfolio;
+      case "aiProject":
+        return aiPortfolio;
+      case "shopifyPortfolio":
+        return shopifyPortfolio;
       default:
         return webPortfolio;
     }
