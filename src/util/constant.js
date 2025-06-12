@@ -55,7 +55,7 @@ import vetlab from "../assets/app-development-portfolio/vetlab.png";
 import eva from "../assets/app-development-portfolio/eva.png";
 import evansfrancis from "../assets/app-development-portfolio/evansfrancis.png";
 import planta from "../assets/app-development-portfolio/planta.png";
-import Serviz from "../assets/app-development-portfolio/Serviz.png";
+import Serviz from "../assets/app-development-portfolio/serviz.png";
 import freshandfresh from "../assets/app-development-portfolio/freshandfresh.png";
 
 //portfolio block chain
