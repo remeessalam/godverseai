@@ -30,10 +30,10 @@ const Industries = () => {
         {/* Enhanced title section */}
         <div className="text-center mb-20">
           <div className="inline-block">
-            <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 bg-clip-text text-transparent mb-6 animate-pulse">
+            <h2 className="text-5xl md:text-6xl font-bold gradient-text">
               Where AI Expertise
             </h2>
-            <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-gray-600 via-gray-800 to-gray-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold gradient-text mb-8">
               Meets Industry Excellence
             </h2>
           </div>

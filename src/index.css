@@ -54,6 +54,9 @@ html {
   .main-title {
     @apply text-[30px] sm:text-[40px]  font-bold dark:text-white text-darkbackground;
   }
+  .gradient-text {
+    @apply bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 bg-clip-text !text-transparent animate-pulse;
+  }
   .desc {
     @apply text-base font-normal dark:text-white text-darkbackground;
   }

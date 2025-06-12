@@ -68,7 +68,10 @@ const Faq = () => {
         <div className="grid md:grid-cols-3 gap-10">
           <div className="flex flex-col gap-5">
             <RoundedHeader title={"FAQs"} bg={true} />
-            <h1 className="main-title leading-tight" data-aos="fade-right">
+            <h1
+              className="main-title leading-tight gradient-text"
+              data-aos="fade-right"
+            >
               Frequently Asked Questions
             </h1>
             <p className="desc" data-aos="fade-right">

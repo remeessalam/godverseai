@@ -43,7 +43,10 @@ const HomePage = () => {
       <section className=" ">
         <div className="flex wrapper flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
-          <h1 className="main-title text-center" data-aos="fade-up">
+          <h1
+            className="main-title text-center gradient-text"
+            data-aos="fade-up"
+          >
             Your Gateway to Cosmic AI Intelligence
           </h1>
           <p className="desc max-w-[40rem] text-center" data-aos="fade-up">
