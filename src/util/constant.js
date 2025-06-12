@@ -36,7 +36,7 @@ import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.p
 import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.png";
 import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.png";
 import Autopilot from "../assets/web-development-portfolio/Autopilot.png";
-import FEGroup from "../assets/web-development-portfolio/FEGroup.png";
+import FEGroup from "../assets/web-development-portfolio/fegroup.png";
 import HugeInc from "../assets/web-development-portfolio/HugeInc.png";
 import CodeHelp from "../assets/web-development-portfolio/CodeHelp.png";
 import Spray from "../assets/web-development-portfolio/Spray.png";

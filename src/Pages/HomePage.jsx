@@ -40,7 +40,7 @@ const HomePage = () => {
       </section>
       <WhyChooseUs />
       <Ourvalues />
-      <section className="dark:bg-darkblack ">
+      <section className=" ">
         <div className="flex wrapper flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
           <h1 className="main-title text-center" data-aos="fade-up">
