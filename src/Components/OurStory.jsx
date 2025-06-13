@@ -6,7 +6,7 @@ const OurStory = () => {
         <div>
           <h3
             data-aos="fade-right"
-            className="text-[32px] text-primary font-bold"
+            className="text-[32px]  font-bold gradient-text"
           >
             Step into the Godverse
           </h3>

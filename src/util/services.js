@@ -38,6 +38,16 @@ import IoT_DevelopmentSub2 from "../assets/images/services/IoT_DevelopmentSub2.j
 //banner video import
 import appbannervideo from "../assets/video/servicevideo/app.mp4";
 import uiuxbannervideo from "../assets/video/servicevideo/uiux.mp4";
+import arvrbannervideo from "../assets/video/servicevideo/arvr.mp4";
+import webbannervideo from "../assets/video/servicevideo/web.mp4";
+import aicallingbannervideo from "../assets/video/servicevideo/aicalling.mp4";
+import chatbotbannervideo from "../assets/video/servicevideo/chatbot.mp4";
+import aibannervideo from "../assets/video/servicevideo/ai.mp4";
+import databannervideo from "../assets/video/servicevideo/data.mp4";
+import rpabannervideo from "../assets/video/servicevideo/rpa.mp4";
+import iotbannervideo from "../assets/video/servicevideo/iot.mp4";
+import gamebannervideo from "../assets/video/servicevideo/game.mp4";
+import blockbannervideo from "../assets/video/servicevideo/block.mp4";
 
 export const serviceDetails = [
   {
@@ -121,6 +131,7 @@ export const serviceDetails = [
   },
   {
     id: 3,
+    bannervideo: arvrbannervideo,
     bannerimg: AR_VR_Development,
     link: "ar-vr-development",
     imageone: AR_VR_sub1,
@@ -159,6 +170,7 @@ export const serviceDetails = [
   },
   {
     id: 4,
+    bannervideo: webbannervideo,
     bannerimg: Full_Stack_Development,
     link: "full-stack-web-development",
     imageone: Full_Stack_sub1,
@@ -197,6 +209,7 @@ export const serviceDetails = [
   },
   {
     id: 5,
+    bannervideo: aicallingbannervideo,
     bannerimg: AICallingAgency,
     link: "ai-calling-agency",
     imageone: AICallingAgencysub1,
@@ -236,6 +249,7 @@ export const serviceDetails = [
   },
   {
     id: 6,
+    bannervideo: chatbotbannervideo,
     bannerimg: Chatbot_Development,
     link: "chatbot-development",
     imageone: Chatbot_DevelopmentSub1,
@@ -274,6 +288,7 @@ export const serviceDetails = [
   },
   {
     id: 7,
+    bannervideo: aibannervideo,
     bannerimg: Artificial_Intelligence_Solutions,
     link: "artificial-intelligence-solutions",
     imageone: Artificial_Intelligence_Solutionssub1,
@@ -313,6 +328,7 @@ export const serviceDetails = [
   },
   {
     id: 8,
+    bannervideo: databannervideo,
     bannerimg: Data_Science_and_Analytics,
     link: "data-science-analytics",
     imageone: Data_Science_and_Analyticssub1,
@@ -352,6 +368,7 @@ export const serviceDetails = [
   },
   {
     id: 9,
+    bannervideo: rpabannervideo,
     bannerimg: Robot_Process_automation,
     link: "robot-process-automation",
     imageone: Robot_Process_automationSub1,
@@ -391,6 +408,7 @@ export const serviceDetails = [
   },
   {
     id: 10,
+    bannervideo: blockbannervideo,
     bannerimg: Blockchain_Development,
     link: "blockchain-development",
     imageone: Blockchain_DevelopmentSub1,
@@ -429,6 +447,7 @@ export const serviceDetails = [
   },
   {
     id: 11,
+    bannervideo: gamebannervideo,
     bannerimg: Game_Development,
     link: "game-development",
     imageone: Game_DevelopmentSub1,
@@ -467,6 +486,7 @@ export const serviceDetails = [
   },
   {
     id: 12,
+    bannervideo: iotbannervideo,
     bannerimg: IoT_Development,
     link: "iot-development",
     imageone: IoT_DevelopmentSub1,

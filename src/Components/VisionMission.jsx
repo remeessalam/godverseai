@@ -13,7 +13,7 @@ const VisionMission = () => {
         <div className="flex flex-col gap-5">
           {visionAndMission.map((item, index) => (
             <div key={index} data-aos="fade-right">
-              <h3 className="text-[32px] font-semibold dark:text-white text-darkblack">
+              <h3 className="text-[32px] font-semibold dark:text-white text-darkblack gradient-text">
                 {item.title}
               </h3>
               <p className="desc mt-4">{item.description}</p>

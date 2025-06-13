@@ -32,7 +32,7 @@ const AboutUsPage = () => {
               <div>
                 <h1
                   data-aos="fade-right"
-                  className="text-8xl font-bold text-darkblack dark:text-white"
+                  className="text-8xl font-bold text-darkblack dark:text-white gradient-text"
                 >
                   About Us
                 </h1>

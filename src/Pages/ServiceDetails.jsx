@@ -27,9 +27,9 @@ const ServiceDetails = () => {
 
   return (
     <div className="">
-      <div className="pt-[5.5rem]">
+      <div className="pt-[2.4rem] sm:pt-[5.5rem]">
         <section
-          className="flex relative justify-start bg-darkblack pt-[9rem] px-10 items-end h-[14rem] sm:h-[35rem] lg:h-[50rem] bg-current bg-cover sm:bg-cover bg-no-repeat bg-center"
+          className="flex relative justify-start bg-darkblack pt-[9rem] aspect-video px-10 items-end bg-current bg-cover sm:bg-cover bg-no-repeat bg-center"
           // style={{ backgroundImage: `url(${serviceDetail.bannerimg})` }}
         >
           <div className="absolute left-0 bottom">
@@ -38,7 +38,7 @@ const ServiceDetails = () => {
               loop={true}
               playsinline
               playing={true}
-              width="100%"
+              width="100vw"
               height="100%"
               muted
               className="object-cover vedio"
@@ -56,7 +56,7 @@ const ServiceDetails = () => {
             />
           </div>
           <div className="absolute inset-0 w-full h-full bg-black/50" />
-          <h1 className="text-[34px] z-20 sm:text-[48px] font-bold text-white">
+          <h1 className="text-[34px] z-20 sm:text-[48px] font-bold text-white mb-5">
             {serviceDetail.title}
           </h1>
         </section>

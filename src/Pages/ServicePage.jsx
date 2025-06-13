@@ -5,6 +5,8 @@ import ServicesGrid from "../Components/ServicesGrid";
 import HowWeWork from "../Components/HowWeWork";
 import Testimonials from "../Components/Testimonials";
 import servicebanner from "../assets/images/servicebanner.jpg";
+import servicebannervideo from "../assets/video/servicebanner.mp4";
+import ReactPlayer from "react-player";
 const ServicePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -17,6 +19,29 @@ const ServicePage = () => {
           } -top-[43rem] blur-3xl left-0 w-full z-10 h-full bg-footerBackground  `}
         />{" "}
         <section className="relative flex flex-col items-center gap-10 z-10 w-full h-full ">
+          <div className="absolute left-0 bottom aspect-video max-h-[30rem]">
+            <ReactPlayer
+              url={servicebannervideo}
+              loop={true}
+              playsinline
+              playing={true}
+              width="100vw"
+              height="100%"
+              muted
+              className="object-cover vedio"
+              config={{
+                file: {
+                  attributes: {
+                    style: {
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "100%",
+                    },
+                  },
+                },
+              }}
+            />
+          </div>
           <div
             className="w-full min-h-[30rem] flex flex-col bg-cover  bg-center justify-center items-center gap-10 paddingtop paddingbottom "
             style={{ backgroundImage: `url(${servicebanner})` }}

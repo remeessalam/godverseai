@@ -30,11 +30,9 @@ const Highlights = () => {
           <div className="flex flex-col gap-5 fade-in-left">
             <RoundedHeader title={"Highlights"} bg={true} />
 
-            <h1 className="main-title leading-tight fade-in">
+            <h1 className="main-title leading-tight fade-in gradient-text">
               Revolutionizing AI with{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-primary0 dark:from-blue-400 dark:to-primary text-transparent bg-clip-text">
-                Quantum Intelligence
-              </span>
+              <span className=" bg-clip-text">Quantum Intelligence</span>
             </h1>
 
             <p className="desc fade-in-delay-1">

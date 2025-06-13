@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
     <section>
       <div className="paddingtop paddingbottom wrapper grid md:grid-cols-2 gap-10">
         <div>
-          <h1 data-aos="fade-right" className="main-title">
+          <h1 data-aos="fade-right" className="main-title gradient-text">
             Why Choose Us
           </h1>
           <ul className="mt-4">

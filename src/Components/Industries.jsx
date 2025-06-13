@@ -25,7 +25,7 @@ const Industries = () => {
   }, []);
 
   return (
-    <div className="min-h-screen relative overflow-hidden">
+    <div className=" relative overflow-hidden">
       <div className="relative z-10 container mx-auto px-6 py-20">
         {/* Enhanced title section */}
         <div className="text-center mb-20">

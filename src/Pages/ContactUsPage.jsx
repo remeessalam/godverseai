@@ -62,7 +62,7 @@ const ContactUsPage = () => {
       <div className="w-full max-w-6xl">
         <div className="flex flex-col md:flex-row gap-8 mb-16">
           <div className="w-full md:w-1/2">
-            <h1 className="main-title mb-8" data-aos="fade-right">
+            <h1 className="main-title mb-8 gradient-text" data-aos="fade-right">
               Get in Touch
             </h1>
             <div className="space-y-4 desc" data-aos="fade-right">
@@ -77,7 +77,10 @@ const ContactUsPage = () => {
         </div>
 
         <div className="w-full max-w-2xl mx-auto paddingbottom">
-          <h2 className="main-title mb-8 text-center" data-aos="fade-up">
+          <h2
+            className="main-title mb-8 text-center gradient-text"
+            data-aos="fade-up"
+          >
             Schedule a Consultation
           </h2>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">

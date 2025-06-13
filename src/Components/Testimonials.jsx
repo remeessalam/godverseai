@@ -88,7 +88,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.h1
-          className="main-title text-center leading-tight"
+          className="main-title text-center leading-tight gradient-text"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -96,7 +96,7 @@ const Testimonials = () => {
         >
           Professionals use to <br />
           <motion.span
-            className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-500 text-transparent bg-clip-text"
+            className="gradient-text bg-clip-text"
             initial={{ backgroundPosition: "0% 50%" }}
             animate={{ backgroundPosition: "100% 50%" }}
             transition={{

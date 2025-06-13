@@ -40,7 +40,7 @@ import FEGroup from "../assets/web-development-portfolio/fegroup.png";
 import HugeInc from "../assets/web-development-portfolio/HugeInc.png";
 import CodeHelp from "../assets/web-development-portfolio/CodeHelp.png";
 import Spray from "../assets/web-development-portfolio/Spray.png";
-import ArcaneMirage from "../assets/web-development-portfolio/Spray.png";
+import ArcaneMirage from "../assets/web-development-portfolio/ArcaneMirage.png";
 import MessinaCatering from "../assets/web-development-portfolio/MessinaCatering.png";
 import MasterShala from "../assets/web-development-portfolio/MasterShala.png";
 import MantraDhwani from "../assets/web-development-portfolio/MantraDhwani.png";

@@ -29,6 +29,8 @@ const Portfolio = ({ page }) => {
         slides: { perView: 3, spacing: 30 },
       },
       "(min-width: 1024px)": { slides: { perView: 3, spacing: 30 } },
+      "(min-width: 1324px)": { slides: { perView: 4, spacing: 30 } },
+      "(min-width: 1724px)": { slides: { perView: 5, spacing: 30 } },
     },
     created(s) {
       s.moveToIdx(5, true, animation);
@@ -59,6 +61,8 @@ const Portfolio = ({ page }) => {
         slides: { perView: 2, spacing: 30 },
       },
       "(min-width: 1024px)": { slides: { perView: 3, spacing: 30 } },
+      "(min-width: 1324px)": { slides: { perView: 4, spacing: 30 } },
+      "(min-width: 1724px)": { slides: { perView: 5, spacing: 30 } },
     },
     created(s) {
       s.moveToIdx(5, true, animation);
@@ -81,7 +85,10 @@ const Portfolio = ({ page }) => {
 
           {displayedWebPortfolio.length > 0 && (
             <>
-              <h3 className="main-title text-center my-10" data-aos="fade-up">
+              <h3
+                className="main-title text-center my-10 gradient-text"
+                data-aos="fade-up"
+              >
                 Web Projects
               </h3>
               <div ref={sliderRef} className="keen-slider ">
@@ -94,7 +101,7 @@ const Portfolio = ({ page }) => {
                     <img
                       src={obj.img}
                       alt={obj.title}
-                      className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[467px] object-cover"
+                      className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[350px] aspect-square object-cover"
                     />
                     <div className="px-3 mt-3 pb-5">
                       <h4 className="small-heading dark:text-white text-center">
@@ -109,7 +116,10 @@ const Portfolio = ({ page }) => {
 
           {displayedAppPortfolio.length > 0 && (
             <>
-              <h3 className="main-title text-center my-16" data-aos="fade-up">
+              <h3
+                className="main-title text-center my-16 gradient-text"
+                data-aos="fade-up"
+              >
                 App Projects
               </h3>
               <div ref={sliderRef2} className="keen-slider">
@@ -122,7 +132,7 @@ const Portfolio = ({ page }) => {
                     <img
                       src={obj.img}
                       alt={obj.title}
-                      className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[467px] object-cover"
+                      className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[350px] aspect-square object-cover"
                     />
                     {/* <div
                       className={`lg:max-h-[316px] 2xl:max-h-[467px] 2xl:min-h-[467px] flex items-end w-full overflow-hidden`}

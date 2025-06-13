@@ -44,7 +44,7 @@ const HowWeWork = () => {
             </div>
             <div className=" h-full flex flex-col gap-5">
               <h2
-                className="text-[32px] font-bold text-primary"
+                className="text-[32px] font-bold gradient-text"
                 data-aos="fade-right"
               >
                 How We Work
@@ -71,7 +71,7 @@ const HowWeWork = () => {
 
           <section className="my-16">
             <h2
-              className="text-[32px] font-bold text-primary mb-6"
+              className="text-[32px] font-bold gradient-text mb-6"
               data-aos="fade-up"
             >
               Looking Toward the Future
@@ -93,7 +93,7 @@ const HowWeWork = () => {
 
           <section>
             <h2
-              className="text-[32px] font-bold text-primary mb-6"
+              className="text-[32px] font-bold gradient-text mb-6"
               data-aos="fade-up"
             >
               Let's Create Something Exceptional

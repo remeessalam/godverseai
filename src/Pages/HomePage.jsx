@@ -21,7 +21,10 @@ const HomePage = () => {
         <div className="wrapper grid md:grid-cols-2 gap-10 sm:pt-[4rem] pt-[2rem] paddingbottom">
           <img data-aos="fade-right" src={homeaboutimg} alt="homeaboutimg" />
           <div>
-            <h1 className="main-title leading-tight" data-aos="fade-left">
+            <h1
+              className="main-title gradient-text leading-tight"
+              data-aos="fade-left"
+            >
               Welcome to GodverseAI
             </h1>
             <p className="desc mt-4" data-aos="fade-left">
@@ -60,12 +63,12 @@ const HomePage = () => {
       <ServicesGrid />
       <Industries />
       <Portfolio />
-      <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
-        <div
+      <div className="relative overflow-hidden  min-h-screen">
+        {/* <div
           className={`absolute ${
             isDarkMode ? `flex` : `hidden`
           } -bottom-[50rem] -left-[50rem] w-full h-full bg-background blur-3xl opacity-70 z-0`}
-        />
+        /> */}
         <div className="relative z-10 w-full h-full">
           <Testimonials />
           <Highlights />
