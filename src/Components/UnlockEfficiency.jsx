@@ -11,7 +11,7 @@ const UnlockEfficiency = () => {
     <section>
       <div className="wrapper w-full flex flex-col gap-10 items-center paddingtop paddingbottom">
         <RoundedHeader title="Unlock Efficiency" />
-        <h1 className="main-title w-fit">
+        <h1 className="main-title w-fit gradient-text">
           Drive Innovation with Our AI Services
         </h1>
         <p className="desc text-center">

@@ -21,7 +21,10 @@ function BlogHeader() {
           Latest Blogs
         </div>
         <div className="my-8">
-          <h1 className="text-3xl font-semibold mb-2" data-aos="fade-up">
+          <h1
+            className="text-3xl font-semibold mb-2 gradient-text"
+            data-aos="fade-up"
+          >
             Explore Latest Blog Posts
           </h1>
           <p className="text-gray-600 dark:text-white mb-5" data-aos="fade-up">

@@ -35,9 +35,14 @@ import IoT_Development from "../assets/images/services/IoT_Development.jpeg";
 import IoT_DevelopmentSub1 from "../assets/images/services/IoT_DevelopmentSub1.jpeg";
 import IoT_DevelopmentSub2 from "../assets/images/services/IoT_DevelopmentSub2.jpeg";
 
+//banner video import
+import appbannervideo from "../assets/video/servicevideo/app.mp4";
+import uiuxbannervideo from "../assets/video/servicevideo/uiux.mp4";
+
 export const serviceDetails = [
   {
     id: 1,
+    bannervideo: appbannervideo,
     bannerimg: webdevbannerimg,
     link: "mobile-app-development",
     imageone: appdevimg1,
@@ -77,6 +82,7 @@ export const serviceDetails = [
   },
   {
     id: 2,
+    bannervideo: uiuxbannervideo,
     bannerimg: UX_UI_Design,
     link: "ux-ui-design",
     imageone: UX_UI_Sub1,

@@ -75,8 +75,8 @@ const HomePageBanner = ({ page }) => {
         }}
       />
       <div className="absolute flex flex-col items-center justify-between    left-0 top-0 w-full h-full pt-[7rem]">
-        <h1 className="sm:text-5xl text-lg font-bold text-center  mb-6 bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 bg-clip-text text-transparent animate-pulse">
-          {/* {displayHeading}
+        <h1 className="sm:text-5xl text-lg font-bold text-white text-center  mb-6  animate-pulse">
+          {displayHeading}
           {cursorPosition === "heading" && (
             <span
               className={`ml-1 bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 bg-clip-text text-transparent ${
@@ -85,13 +85,13 @@ const HomePageBanner = ({ page }) => {
             >
               |
             </span>
-          )} */}
-          Vision Beyond Reality
+          )}
+          {/* Vision Beyond Reality */}
         </h1>
 
         <div className="flex flex-col gap-8 pb-5">
-          <p className="font-bold max-w-[19rem] sm:max-w-full text-sm sm:text-xl  sm:text-start text-center bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 bg-clip-text text-transparent animate-pulse">
-            {/* {displayParagraph}
+          <p className="font-bold max-w-[19rem] sm:max-w-full text-sm sm:text-xl  sm:text-start text-center text-white animate-pulse">
+            {displayParagraph}
             {cursorPosition === "paragraph" && (
               <span
                 className={`ml-1 ${
@@ -100,8 +100,8 @@ const HomePageBanner = ({ page }) => {
               >
                 |
               </span>
-            )} */}
-            Where Cosmic Innovation Meets Quantum-Level Intelligence
+            )}
+            {/* Where Cosmic Innovation Meets Quantum-Level Intelligence */}
           </p>
           {!page && (
             <div className="flex justify-center gap-5">

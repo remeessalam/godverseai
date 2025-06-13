@@ -18,13 +18,13 @@ const ServicePage = () => {
         />{" "}
         <section className="relative flex flex-col items-center gap-10 z-10 w-full h-full ">
           <div
-            className="w-full min-h-[30rem] flex flex-col bg-cover bg-center justify-center items-center gap-10 paddingtop paddingbottom "
+            className="w-full min-h-[30rem] flex flex-col bg-cover  bg-center justify-center items-center gap-10 paddingtop paddingbottom "
             style={{ backgroundImage: `url(${servicebanner})` }}
           >
             <RoundedHeader title={"Our Services"} />
             <h1
               data-aos="fade-up"
-              className=" text-[56px] text-center leading-tight font-bold dark:text-white text-white"
+              className=" text-[56px]  text-center leading-tight font-bold dark:text-white text-white"
             >
               Simplify your Business
               <br /> Growth with GodverseAI
@@ -44,7 +44,7 @@ const ServicePage = () => {
           </div>
         </section>
       </section>
-      <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
+      <div className="relative overflow-hidden  min-h-screen">
         <div
           className={`absolute ${
             isDarkMode ? `flex` : `hidden`

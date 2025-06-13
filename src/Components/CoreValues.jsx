@@ -21,7 +21,7 @@ const CoreValues = () => {
           <h1
             data-aos="fade-up"
             data-aos-delay="200"
-            className="main-title relative"
+            className="main-title relative gradient-text"
           >
             Our Core Values
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-transparent via-current to-transparent opacity-30 rounded-full"></div>

@@ -24,7 +24,7 @@ const HowWeWork = () => {
 
         <div className="wrapper relative z-10">
           <div className="text-center mb-12">
-            <h1 className="main-title" data-aos="fade-up">
+            <h1 className="main-title gradient-text" data-aos="fade-up">
               Invest in your Goals with GodverseAI
             </h1>
             <p className="desc" data-aos="fade-up">

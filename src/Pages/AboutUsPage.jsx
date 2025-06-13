@@ -25,7 +25,7 @@ const AboutUsPage = () => {
           className={`absolute ${
             isDarkMode ? `flex` : "hidden"
           } -top-[28rem] blur-3xl left-0 w-full h-full bg-footerBackground  `}
-        />{" "}
+        />
         <section className="relative z-10 w-full h-full">
           <div>
             <div className="wrapper paddingtop paddingbottom grid md:grid-cols-2 gap-10">
@@ -52,11 +52,11 @@ const AboutUsPage = () => {
         </section>
       </section>
       <div className="relative overflow-hidden">
-        <div
+        {/* <div
           className={`absolute ${
             isDarkMode ? `flex` : "hidden"
           } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
-        />
+        /> */}
         <section className="relative z-10 w-full h-full">
           <CoreValues />
           <VisionMission />
