@@ -5,7 +5,7 @@ import ServicesGrid from "../Components/ServicesGrid";
 import HowWeWork from "../Components/HowWeWork";
 import Testimonials from "../Components/Testimonials";
 import servicebanner from "../assets/images/servicebanner.jpg";
-import servicebannervideo from "../assets/video/servicebanner.mp4";
+import servicebannervideo from "../assets/video/servicebanner2.mp4";
 import ReactPlayer from "react-player";
 const ServicePage = () => {
   const { theme } = useTheme();
