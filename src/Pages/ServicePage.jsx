@@ -19,7 +19,7 @@ const ServicePage = () => {
           } -top-[43rem] blur-3xl left-0 w-full z-10 h-full bg-footerBackground  `}
         />{" "}
         <section className="relative flex flex-col items-center gap-10 z-10 w-full h-full ">
-          <div className="absolute left-0 bottom aspect-video max-h-[30rem]">
+          <div className="absolute left-0 bottom md:aspect-video md:max-h-[30rem] h-[44rem]">
             <ReactPlayer
               url={servicebannervideo}
               loop={true}
@@ -44,7 +44,7 @@ const ServicePage = () => {
           </div>
           <div
             className="w-full min-h-[30rem] flex flex-col bg-cover  bg-center justify-center items-center gap-10 paddingtop paddingbottom "
-            style={{ backgroundImage: `url(${servicebanner})` }}
+            // style={{ backgroundImage: `url(${servicebanner})` }}
           >
             <RoundedHeader title={"Our Services"} />
             <h1
